@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Project_2</string>
+    <string name="please_sign_in">Please Sign In:</string>
+    <string name="username">Username:</string>
+    <string name="password">Password:</string>
+    <string name="password1">Password:</string>
+    <string name="username1">Username:</string>
+    <string name="username2">Username:</string>
+    <string name="password2">Password:</string>
+    <string name="password3">Password:</string>
+    <string name="enter">ENTER</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_up1">SIGN UP</string>
+    <string name="dont_have_an_account">Don\'t have an account?</string>
 </resources>
