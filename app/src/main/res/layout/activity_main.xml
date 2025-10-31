@@ -7,5 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    // TODO: Make list of buttons with lights
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
