@@ -11,8 +11,10 @@
         android:id="@+id/main"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".MainActivity">
+        tools:context=".MainActivity"
+        tools:ignore="ExtraText">
 
+        // Trouble signing in display text
         <TextView
             android:id="@+id/failedSignInTextView"
             android:layout_width="match_parent"
@@ -22,13 +24,14 @@
             android:elevation="10dp"
             android:gravity="center"
             android:padding="10dp"
-            android:text="Trouble signing you in. \nPlease try again:"
+            android:text="@string/please_try_again"
             android:textColor="@color/black"
             android:textSize="33sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
+        // Re-try username display text
         <TextView
             android:id="@+id/usernameTextView"
             android:layout_width="match_parent"
@@ -48,6 +51,7 @@
             app:layout_constraintVertical_bias="0.03"
             tools:layout_editor_absoluteX="16dp" />
 
+        // Re-enter username input
         <EditText
             android:id="@+id/username"
             android:layout_width="300dp"
@@ -64,8 +68,10 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/failedSignInTextView"
             app:layout_constraintVertical_bias="0"
-            tools:layout_editor_absoluteX="100dp" />
+            tools:layout_editor_absoluteX="100dp"
+            tools:ignore="LabelFor" />
 
+        // Re-enter password display text
         <TextView
             android:id="@+id/passwordTextView"
             android:layout_width="match_parent"
@@ -85,6 +91,7 @@
             app:layout_constraintVertical_bias="0.06"
             tools:layout_editor_absoluteX="16dp" />
 
+        // Re-enter password input
         <EditText
             android:id="@+id/password"
             android:layout_width="300dp"
@@ -101,8 +108,10 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/username"
             app:layout_constraintVertical_bias="0.04"
-            tools:layout_editor_absoluteX="16dp" />
+            tools:layout_editor_absoluteX="16dp"
+            tools:ignore="LabelFor" />
 
+        // Background color
         <View
             android:id="@+id/background"
             android:layout_width="match_parent"
@@ -110,8 +119,9 @@
             android:background="#40B7E6"
             android:elevation="0dp"
             tools:layout_editor_absoluteX="0dp"
-            tools:layout_editor_absoluteY="-53dp" />
+            tools:layout_editor_absoluteY="-0dp" />
 
+        // ENTER button allows user to sign in
         <Button
             android:id="@+id/signInButton"
             android:layout_width="200dp"
@@ -130,6 +140,7 @@
             app:layout_constraintTop_toBottomOf="@id/passwordTextView"
             app:layout_constraintVertical_bias="0" />
 
+        // Don't have account display text
         <TextView
             android:layout_width="match_parent"
             android:layout_height="40dp"
@@ -142,6 +153,7 @@
             app:layout_constraintTop_toBottomOf="@id/signInButton"
             app:layout_constraintVertical_bias="0" />
 
+        // SIGN UP button that sends the user to make new account screen
         <Button
             android:id="@+id/signUpButton"
             android:layout_width="200dp"
