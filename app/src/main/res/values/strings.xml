@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Project_2</string>
+    <string name="enter_the_following_info_about_your_vehicle">enter_info</string>
+    <string name="it_s_on_your_dashboard_and_insurance_card">check_dash_and_insurance</string>
+    <string name="vin_number">vin_number</string>
+    <string name="vin_number1">VIN Number:</string>
+    <string name="enter_the_following_info_about_your_vehicle1">Enter the following info about your vehicle:</string>
 </resources>
