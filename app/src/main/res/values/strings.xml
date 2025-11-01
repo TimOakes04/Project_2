@@ -5,4 +5,9 @@
     <string name="vin_number">vin_number</string>
     <string name="vin_number1">VIN Number:</string>
     <string name="enter_the_following_info_about_your_vehicle1">Enter the following info about your vehicle:</string>
+    <string name="make">Make:</string>
+    <string name="model">Model:</string>
+    <string name="year">Year:</string>
+    <string name="pin_for_vehicle_personal">Pin for vehicle (Personal #):</string>
+    <string name="pin">Pin for vehicle: \n(4 digit personal #)</string>
 </resources>
