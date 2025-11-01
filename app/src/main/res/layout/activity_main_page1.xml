@@ -5,8 +5,10 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
 
+    // Background
     <View
         android:id="@+id/background"
         android:layout_width="match_parent"
@@ -16,6 +18,7 @@
         tools:layout_editor_absoluteX="69dp"
         tools:layout_editor_absoluteY="172dp" />
 
+    // Username display text (Change this to display the username)
     <TextView
         android:id="@+id/displayUsername"
         android:layout_width="match_parent"
@@ -28,6 +31,10 @@
         android:textSize="35sp"
         tools:ignore="MissingConstraints" />
 
+    /*
+    Check engine light button that when
+    clicked takes to check engine light page
+    */
     <ImageButton
         android:id="@+id/checkEngineLightButton"
         android:layout_width="300dp"
@@ -45,6 +52,7 @@
         tools:layout_editor_absoluteX="55dp"
         tools:layout_editor_absoluteY="213dp" />
 
+    // Check engine light text display text view
     <TextView
         android:id="@+id/checkEngineLightTextDisplay"
         android:layout_width="100dp"
@@ -58,6 +66,10 @@
         app:layout_constraintEnd_toEndOf="@id/checkEngineLightButton"
         app:layout_constraintTop_toTopOf="@id/checkEngineLightButton" />
 
+    /*
+    Low oil pressure light button that when
+    clicked takes to low oil pressure light page
+    */
     <ImageButton
         android:id="@+id/lowOilPressureLightButton"
         android:layout_width="300dp"
@@ -75,6 +87,7 @@
         app:layout_constraintTop_toBottomOf="@id/checkEngineLightButton"
         tools:ignore="RtlSymmetry" />
 
+    // Oil pressure text display text view
     <TextView
         android:id="@+id/oilPressureTextDisplay"
         android:layout_width="110dp"
@@ -88,6 +101,10 @@
         app:layout_constraintEnd_toEndOf="@id/lowOilPressureLightButton"
         app:layout_constraintTop_toTopOf="@id/lowOilPressureLightButton" />
 
+    /*
+    ABS button that when
+    clicked takes to ABS light page
+    */
     <ImageButton
         android:id="@+id/absButton"
         android:layout_width="300dp"
@@ -105,6 +122,7 @@
         app:layout_constraintTop_toBottomOf="@id/lowOilPressureLightButton"
         tools:ignore="RtlSymmetry" />
 
+    // ABS text display text view
     <TextView
         android:id="@+id/absTextView"
         android:layout_width="110dp"
@@ -117,17 +135,20 @@
         android:textSize="26sp"
         app:layout_constraintEnd_toEndOf="@id/absButton"
         app:layout_constraintTop_toTopOf="@id/absButton" />
-    
+
+
+    // Button that allows user to go to the next page of lights
     <Button
         android:id="@+id/page2"
-        android:text="@string/continueButton"
-        app:layout_constraintTop_toBottomOf="@id/absButton"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        android:textColor="@color/black"
-        android:backgroundTint="@color/white"
         android:layout_width="200dp"
         android:layout_height="100dp"
+        android:backgroundTint="@color/white"
+        android:text="@string/continueButton"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/absButton"
         tools:ignore="HardcodedText" />
 
 

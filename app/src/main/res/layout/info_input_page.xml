@@ -208,4 +208,18 @@
         tools:layout_editor_absoluteX="-16dp"
         tools:layout_editor_absoluteY="0dp" />
 
+    // Button to continue to activity main page 1
+    <Button
+        android:id="@+id/confirm_button"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/white"
+        android:text="@string/continueButton"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/pinInput"
+        tools:ignore="HardcodedText" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
