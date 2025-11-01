@@ -10,4 +10,11 @@
     <string name="year">Year:</string>
     <string name="pin_for_vehicle_personal">Pin for vehicle (Personal #):</string>
     <string name="pin">Pin for vehicle: \n(4 digit personal #)</string>
+    <string name="welcome_username">Welcome Username!</string>
+    <string name="check_engine_light">Check Engine Light (CEL)</string>
+    <string name="low_oil_pressure">Low Oil Pressure</string>
+    <string name="sends_to_screen_of_info">Sends to screen of info</string>
+    <string name="abs">ABS (Anti-lock Braking System)</string>
+    <string name="continue">Continue</string>
+    <string name="continueButton">Continue...</string>
 </resources>
