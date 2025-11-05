@@ -1,7 +1,5 @@
 package com.example.project_2;
 
-import static android.os.Build.VERSION_CODES_FULL.R;
-
 import android.os.Bundle;
 
 import androidx.activity.EdgeToEdge;
@@ -10,13 +8,14 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class MainActivity extends AppCompatActivity {
+public class FailedSignInPage extends AppCompatActivity {
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R);
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R), (v, insets) -> {
+        setContentView(R.layout.activity_failed_sign_in_page);
+        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
