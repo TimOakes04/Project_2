@@ -1,0 +1,17 @@
+Index: app/src/main/res/layout/enter_info_page.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\n<LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n    android:orientation=\"vertical\"\n    android:layout_width=\"match_parent\"\n    android:layout_height=\"match_parent\">\n\n    //TODO: Enter a page with inputs from user on their veihcle\n\n</LinearLayout>
+===================================================================
+diff --git a/app/src/main/res/layout/enter_info_page.xml b/app/src/main/res/layout/enter_info_page.xml
+--- a/app/src/main/res/layout/enter_info_page.xml	(revision 4216d27488f32873742e8a866edd456a0d5fd2dc)
++++ b/app/src/main/res/layout/enter_info_page.xml	(date 1762020440314)
+@@ -4,6 +4,6 @@
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+ 
+-    //TODO: Enter a page with inputs from user on their veihcle
++    // TODO: Enter a page with inputs from user on their vehicle
+ 
+ </LinearLayout>
+\ No newline at end of file
