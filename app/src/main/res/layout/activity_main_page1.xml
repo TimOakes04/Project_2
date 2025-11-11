@@ -26,7 +26,7 @@
         android:background="#0A408F"
         android:elevation="9dp"
         android:gravity="center"
-        android:text="@string/welcome_username"
+        android:text="@string/welcome_user"
         android:textColor="@color/black"
         android:textSize="35sp"
         tools:ignore="MissingConstraints" />

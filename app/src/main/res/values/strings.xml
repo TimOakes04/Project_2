@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Project_2</string>
+    <string name="welcome_user">Welcome User!</string>
+    <string name="sends_to_screen_of_info">cel_info</string>
 </resources>
