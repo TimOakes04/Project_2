@@ -42,29 +42,15 @@
         android:backgroundTint="#F6D02D"
         android:contentDescription="@string/sends_to_screen_of_info"
         android:elevation="10dp"
-        android:padding="24dp"
-        android:scaleType="fitStart"
-        android:src="@drawable/check_engine"
+        android:padding="20dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/cel1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/displayUsername"
         tools:ignore="RtlSymmetry"
         tools:layout_editor_absoluteX="55dp"
         tools:layout_editor_absoluteY="213dp" />
-
-    // Check engine light text display text view
-    <TextView
-        android:id="@+id/checkEngineLightTextDisplay"
-        android:layout_width="100dp"
-        android:layout_height="140dp"
-        android:layout_marginTop="4dp"
-        android:layout_marginEnd="8dp"
-        android:elevation="10dp"
-        android:text="@string/check_engine_light"
-        android:textColor="@color/black"
-        android:textSize="27sp"
-        app:layout_constraintEnd_toEndOf="@id/checkEngineLightButton"
-        app:layout_constraintTop_toTopOf="@id/checkEngineLightButton" />
 
     /*
     Low oil pressure light button that when
@@ -74,32 +60,18 @@
         android:id="@+id/lowOilPressureLightButton"
         android:layout_width="300dp"
         android:layout_height="150dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="35dp"
         android:backgroundTint="#F62D2D"
         android:contentDescription="@string/sends_to_screen_of_info"
         android:elevation="10dp"
-        android:padding="36dp"
-        android:scaleType="fitStart"
-        android:src="@drawable/oil_pressure"
+        android:padding="18dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/op1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/checkEngineLightButton"
         tools:ignore="RtlSymmetry" />
-
-    // Oil pressure text display text view
-    <TextView
-        android:id="@+id/oilPressureTextDisplay"
-        android:layout_width="110dp"
-        android:layout_height="140dp"
-        android:layout_marginTop="4dp"
-        android:layout_marginEnd="8dp"
-        android:elevation="10dp"
-        android:text="@string/low_oil_pressure"
-        android:textColor="@color/black"
-        android:textSize="27sp"
-        app:layout_constraintEnd_toEndOf="@id/lowOilPressureLightButton"
-        app:layout_constraintTop_toTopOf="@id/lowOilPressureLightButton" />
 
     /*
     ABS button that when
@@ -109,33 +81,18 @@
         android:id="@+id/absButton"
         android:layout_width="300dp"
         android:layout_height="150dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="35dp"
         android:backgroundTint="#F6D02D"
         android:contentDescription="@string/sends_to_screen_of_info"
         android:elevation="10dp"
-        android:padding="25dp"
-        android:scaleType="fitStart"
-        android:src="@drawable/abs"
+        android:padding="20dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/abs1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/lowOilPressureLightButton"
         tools:ignore="RtlSymmetry" />
-
-    // ABS text display text view
-    <TextView
-        android:id="@+id/absTextView"
-        android:layout_width="110dp"
-        android:layout_height="140dp"
-        android:layout_marginTop="4dp"
-        android:layout_marginEnd="8dp"
-        android:elevation="10dp"
-        android:text="@string/abs"
-        android:textColor="@color/black"
-        android:textSize="26sp"
-        app:layout_constraintEnd_toEndOf="@id/absButton"
-        app:layout_constraintTop_toTopOf="@id/absButton" />
-
 
     // Button that allows user to go to the next page of lights
     <Button
@@ -143,7 +100,7 @@
         android:layout_width="200dp"
         android:layout_height="100dp"
         android:backgroundTint="@color/white"
-        android:text="@string/continueButton"
+        android:text="Continue"
         android:textColor="@color/black"
         android:textSize="28sp"
         app:layout_constraintEnd_toEndOf="parent"
