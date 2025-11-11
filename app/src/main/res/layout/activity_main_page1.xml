@@ -74,7 +74,7 @@
         tools:ignore="RtlSymmetry" />
 
     /*
-    ABS button that when
+    ABS light button that when
     clicked takes to ABS light page
     */
     <ImageButton
