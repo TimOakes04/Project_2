@@ -4,4 +4,12 @@
     <string name="sends_to_screen_of_info">cel_info</string>
     <string name="tire_pressure_info">tire_pressure_info</string>
     <string name="continue1">Continue</string>
+    <string name="welcome_admin_username">welcome_admin_display</string>
+    <string name="welcome_admin_username1">Welcome Admin Username!</string>
+    <string name="add_change_info">Add/ change info</string>
+    <string name="add_new_light">Add new light</string>
+    <string name="add_users">Add users</string>
+    <string name="remove_users">Remove users</string>
+    <string name="remove_user">Remove user</string>
+    <string name="add_user">Add user</string>
 </resources>
