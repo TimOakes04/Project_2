@@ -1,0 +1,78 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AndroidLayouts\">\n    <shared>\n      <config />\n    </shared>\n    <layouts>\n      <layout url=\"file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml\">\n        <config>\n          <theme>@style/Theme.Project_2</theme>\n        </config>\n      </layout>\n    </layouts>\n  </component>\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"NONE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"9e8270f2-d15a-41f0-9afb-9764d9983097\" name=\"Changes\" comment=\"\">\n      <change beforePath=\"$PROJECT_DIR$/app/src/main/java/com/example/project_2/MainActivity.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/app/src/main/java/com/example/project_2/MainActivity.java\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"ClangdSettings\">\n    <option name=\"formatViaClangd\" value=\"false\" />\n  </component>\n  <component name=\"ExecutionTargetManager\" SELECTED_TARGET=\"device_and_snapshot_combo_box_target[DeviceId(pluginId=LocalEmulator, isTemplate=false, identifier=path=/Users/timoakes/.android/avd/Pixel_5_Test.avd)]\" />\n  <component name=\"ExternalProjectsData\">\n    <projectState path=\"$PROJECT_DIR$\">\n      <ProjectState />\n    </projectState>\n  </component>\n  <component name=\"ExternalProjectsManager\">\n    <system id=\"GRADLE\">\n      <state>\n        <projects_view>\n          <tree_state>\n            <expand>\n              <path>\n                <item name=\"\" type=\"6a2764b6:ExternalProjectsStructure$RootNode\" />\n                <item name=\"Project_2\" type=\"f1a62948:ProjectNode\" />\n              </path>\n            </expand>\n            <select />\n          </tree_state>\n        </projects_view>\n      </state>\n    </system>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\n      <map>\n        <entry key=\"$PROJECT_DIR$\" value=\"UI\" />\n      </map>\n    </option>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"GitHubPullRequestSearchHistory\">{\n  &quot;lastFilter&quot;: {\n    &quot;state&quot;: &quot;OPEN&quot;,\n    &quot;assignee&quot;: &quot;TimOakes04&quot;\n  }\n}</component>\n  <component name=\"GithubPullRequestsUISettings\">{\n  &quot;selectedUrlAndAccountId&quot;: {\n    &quot;url&quot;: &quot;https://github.com/TimOakes04/Project_2.git&quot;,\n    &quot;accountId&quot;: &quot;b195353b-0ed9-4fd7-925d-bd07aaf2a491&quot;\n  }\n}</component>\n  <component name=\"ProjectColorInfo\">{\n  &quot;associatedIndex&quot;: 7\n}</component>\n  <component name=\"ProjectId\" id=\"34X2gLYRZIbZglKfcYv6fscw6GT\" />\n  <component name=\"ProjectReloadState\">\n    <option name=\"STATE\" value=\"1\" />\n  </component>\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">{\n  &quot;keyToString&quot;: {\n    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\n    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,\n    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,\n    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,\n    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,\n    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,\n    &quot;git-widget-placeholder&quot;: &quot;main&quot;\n  }\n}</component>\n  <component name=\"RunManager\">\n    <configuration name=\"app\" type=\"AndroidRunConfigurationType\" factoryName=\"Android App\" activateToolWindowBeforeRun=\"false\">\n      <module name=\"Project_2.app\" />\n      <option name=\"ANDROID_RUN_CONFIGURATION_SCHEMA_VERSION\" value=\"1\" />\n      <option name=\"DEPLOY\" value=\"true\" />\n      <option name=\"DEPLOY_APK_FROM_BUNDLE\" value=\"false\" />\n      <option name=\"DEPLOY_AS_INSTANT\" value=\"false\" />\n      <option name=\"ARTIFACT_NAME\" value=\"\" />\n      <option name=\"PM_INSTALL_OPTIONS\" value=\"\" />\n      <option name=\"ALL_USERS\" value=\"false\" />\n      <option name=\"ALWAYS_INSTALL_WITH_PM\" value=\"false\" />\n      <option name=\"ALLOW_ASSUME_VERIFIED\" value=\"false\" />\n      <option name=\"CLEAR_APP_STORAGE\" value=\"false\" />\n      <option name=\"DYNAMIC_FEATURES_DISABLED_LIST\" value=\"\" />\n      <option name=\"ACTIVITY_EXTRA_FLAGS\" value=\"\" />\n      <option name=\"MODE\" value=\"default_activity\" />\n      <option name=\"RESTORE_ENABLED\" value=\"false\" />\n      <option name=\"RESTORE_FILE\" value=\"\" />\n      <option name=\"RESTORE_FRESH_INSTALL_ONLY\" value=\"false\" />\n      <option name=\"CLEAR_LOGCAT\" value=\"false\" />\n      <option name=\"SHOW_LOGCAT_AUTOMATICALLY\" value=\"false\" />\n      <option name=\"TARGET_SELECTION_MODE\" value=\"DEVICE_AND_SNAPSHOT_COMBO_BOX\" />\n      <option name=\"SELECTED_CLOUD_MATRIX_CONFIGURATION_ID\" value=\"-1\" />\n      <option name=\"SELECTED_CLOUD_MATRIX_PROJECT_ID\" value=\"\" />\n      <option name=\"DEBUGGER_TYPE\" value=\"Auto\" />\n      <Auto>\n        <option name=\"USE_JAVA_AWARE_DEBUGGER\" value=\"false\" />\n        <option name=\"SHOW_STATIC_VARS\" value=\"true\" />\n        <option name=\"WORKING_DIR\" value=\"\" />\n        <option name=\"TARGET_LOGGING_CHANNELS\" value=\"lldb process:gdb-remote packets\" />\n        <option name=\"SHOW_OPTIMIZED_WARNING\" value=\"true\" />\n        <option name=\"ATTACH_ON_WAIT_FOR_DEBUGGER\" value=\"false\" />\n        <option name=\"DEBUG_SANDBOX_SDK\" value=\"false\" />\n      </Auto>\n      <Hybrid>\n        <option name=\"USE_JAVA_AWARE_DEBUGGER\" value=\"false\" />\n        <option name=\"SHOW_STATIC_VARS\" value=\"true\" />\n        <option name=\"WORKING_DIR\" value=\"\" />\n        <option name=\"TARGET_LOGGING_CHANNELS\" value=\"lldb process:gdb-remote packets\" />\n        <option name=\"SHOW_OPTIMIZED_WARNING\" value=\"true\" />\n        <option name=\"ATTACH_ON_WAIT_FOR_DEBUGGER\" value=\"false\" />\n        <option name=\"DEBUG_SANDBOX_SDK\" value=\"false\" />\n      </Hybrid>\n      <Java>\n        <option name=\"ATTACH_ON_WAIT_FOR_DEBUGGER\" value=\"false\" />\n        <option name=\"DEBUG_SANDBOX_SDK\" value=\"false\" />\n      </Java>\n      <Native>\n        <option name=\"USE_JAVA_AWARE_DEBUGGER\" value=\"false\" />\n        <option name=\"SHOW_STATIC_VARS\" value=\"true\" />\n        <option name=\"WORKING_DIR\" value=\"\" />\n        <option name=\"TARGET_LOGGING_CHANNELS\" value=\"lldb process:gdb-remote packets\" />\n        <option name=\"SHOW_OPTIMIZED_WARNING\" value=\"true\" />\n        <option name=\"ATTACH_ON_WAIT_FOR_DEBUGGER\" value=\"false\" />\n        <option name=\"DEBUG_SANDBOX_SDK\" value=\"false\" />\n      </Native>\n      <Profilers>\n        <option name=\"ADVANCED_PROFILING_ENABLED\" value=\"false\" />\n        <option name=\"STARTUP_PROFILING_ENABLED\" value=\"false\" />\n        <option name=\"STARTUP_CPU_PROFILING_ENABLED\" value=\"false\" />\n        <option name=\"STARTUP_CPU_PROFILING_CONFIGURATION_NAME\" value=\"Java/Kotlin Method Sample (legacy)\" />\n        <option name=\"STARTUP_NATIVE_MEMORY_PROFILING_ENABLED\" value=\"false\" />\n        <option name=\"NATIVE_MEMORY_SAMPLE_RATE_BYTES\" value=\"2048\" />\n      </Profilers>\n      <option name=\"DEEP_LINK\" value=\"\" />\n      <option name=\"ACTIVITY\" value=\"\" />\n      <option name=\"ACTIVITY_CLASS\" value=\"\" />\n      <option name=\"SEARCH_ACTIVITY_IN_GLOBAL_SCOPE\" value=\"false\" />\n      <option name=\"SKIP_ACTIVITY_VALIDATION\" value=\"false\" />\n      <method v=\"2\">\n        <option name=\"Android.Gradle.BeforeRunTask\" enabled=\"true\" />\n      </method>\n    </configuration>\n  </component>\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"9e8270f2-d15a-41f0-9afb-9764d9983097\" name=\"Changes\" comment=\"\" />\n      <created>1761345705624</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1761345705624</updated>\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"testing\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1761345746507</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1761345746507</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"testing2\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1761346691808</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1761346691808</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"3\" />\n    <servers />\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"testing\" />\n    <MESSAGE value=\"testing2\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"testing2\" />\n  </component>\n  <component name=\"play_dynamic_filters_status\">\n    <option name=\"appIdToCheckInfo\">\n      <map>\n        <entry key=\"com.example.project_2\">\n          <value>\n            <CheckInfo lastCheckTimestamp=\"1761345739544\" />\n          </value>\n        </entry>\n        <entry key=\"com.example.project_2.test\">\n          <value>\n            <CheckInfo lastCheckTimestamp=\"1761345739548\" />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n</project>
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 68a6f38648144c3d441db372d96e73ef75697567)
++++ b/.idea/workspace.xml	(date 1762023319062)
+@@ -17,7 +17,9 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="9e8270f2-d15a-41f0-9afb-9764d9983097" name="Changes" comment="">
+-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/MainActivity.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/info_input_page.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -49,6 +51,13 @@
+         </projects_view>
+       </state>
+     </system>
++  </component>
++  <component name="FileTemplateManagerImpl">
++    <option name="RECENT_TEMPLATES">
++      <list>
++        <option value="layoutResourceFile_vertical" />
++      </list>
++    </option>
+   </component>
+   <component name="Git.Settings">
+     <option name="RECENT_BRANCH_BY_REPOSITORY">
+@@ -81,18 +90,18 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent">{
+-  &quot;keyToString&quot;: {
+-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+-    &quot;git-widget-placeholder&quot;: &quot;main&quot;
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "ModuleVcsDetector.initialDetectionPerformed": "true",
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "RunOnceActivity.cidr.known.project.marker": "true",
++    "RunOnceActivity.git.unshallow": "true",
++    "RunOnceActivity.readMode.enableVisualFormatting": "true",
++    "cf.first.check.clang-format": "false",
++    "cidr.known.project.marker": "true",
++    "git-widget-placeholder": "UI"
+   }
+-}</component>
++}]]></component>
+   <component name="RunManager">
+     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+       <module name="Project_2.app" />
+@@ -204,12 +213,12 @@
+       <map>
+         <entry key="com.example.project_2">
+           <value>
+-            <CheckInfo lastCheckTimestamp="1761345739544" />
++            <CheckInfo lastCheckTimestamp="1762022928156" />
+           </value>
+         </entry>
+         <entry key="com.example.project_2.test">
+           <value>
+-            <CheckInfo lastCheckTimestamp="1761345739548" />
++            <CheckInfo lastCheckTimestamp="1762022928164" />
+           </value>
+         </entry>
+       </map>

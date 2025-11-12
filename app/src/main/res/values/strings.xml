@@ -1,25 +1,7 @@
 <resources>
     <string name="app_name">Project_2</string>
-    <string name="please_sign_in">Please Sign In:</string>
-    <string name="username">Username:</string>
-    <string name="password">Password:</string>
-    <string name="password1">Password:</string>
-    <string name="username1">Username:</string>
-    <string name="username2">Username:</string>
-    <string name="password2">Password:</string>
-    <string name="password3">Password:</string>
-    <string name="enter">ENTER</string>
-    <string name="sign_up">Sign Up</string>
-    <string name="sign_up1">SIGN UP</string>
-    <string name="dont_have_an_account">Don\'t have an account?</string>
-    <string name="trouble_signing_in">Trouble signing you in %n :( %n Please try again:</string>
-    <string name="trouble_signing_in1">Trouble signing you in. \n:( \nPlease try again:</string>
-    <string name="please_sign_up">Please Sign-Up:</string>
-    <string name="please_sign_up1">Please Sign-Up:</string>
-    <string name="please_sign_up2">Please Sign-Up:</string>
-    <string name="re_enter_password">Re-enter password</string>
-    <string name="welcome_admin_username">Welcome Admin Username!</string>
-    <string name="add_new_info">Add new info</string>
-    <string name="add_a_new_light">Add a new light</string>
-    <string name="please_try_again">Trouble signing you in. \nPlease try again:</string>
+    <string name="welcome_user">Welcome User!</string>
+    <string name="sends_to_screen_of_info">cel_info</string>
+    <string name="tire_pressure_info">tire_pressure_info</string>
+    <string name="continue1">Continue</string>
 </resources>
