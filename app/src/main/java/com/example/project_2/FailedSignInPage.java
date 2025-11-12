@@ -44,4 +44,8 @@ public class FailedSignInPage extends AppCompatActivity {
 
         // Check against database
     }
+
+    public static Intent failedSignInPageIntentFactory(Context context){
+        return new Intent(context, FailedSignInPage.class);
+    }
 }
