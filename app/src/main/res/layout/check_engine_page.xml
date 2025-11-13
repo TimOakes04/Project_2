@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="ExtraText">
+
+    // Background color
+    <View
+        android:id="@+id/background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#0A408F"
+        android:elevation="0dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    // Check engine light image
+    <ImageView
+        android:id="@+id/checkEngineLightImage"
+        android:layout_width="300dp"
+        android:layout_height="180dp"
+        android:contentDescription="@string/check_engine_light_image"
+        android:padding="15dp"
+        android:src="@drawable/cel1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    // Check engine light text
+    <ImageView
+        android:id="@+id/checkEngineLightInfo"
+        android:layout_width="match_parent"
+        android:layout_height="560dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="@string/check_engine_light_info"
+        android:src="@drawable/cel_info1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/backOutButton" />
+
+    // A button that allows the user to back out to the main page that they were on
+    <Button
+        android:id="@+id/backOutButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/back"
+        android:textColor="@color/black"
+        android:textSize="23sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/checkEngineLightImage"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
