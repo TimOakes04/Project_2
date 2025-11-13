@@ -1,4 +1,4 @@
-package com.example.Project2;
+package com.example.lab01;
 
 import android.os.Bundle;
 import androidx.activity.EdgeToEdge;
