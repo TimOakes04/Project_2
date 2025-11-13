@@ -34,7 +34,7 @@
         android:layout_height="560dp"
         android:layout_marginTop="24dp"
         android:contentDescription="@string/check_engine_light_info"
-        android:src="@drawable/cel_info1"
+        android:src="@drawable/cel_info"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
