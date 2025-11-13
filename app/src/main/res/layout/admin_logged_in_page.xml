@@ -33,9 +33,6 @@
         tools:layout_editor_absoluteY="0dp" />
 
     // Add new info button allows admin to add/ change info to current light
-
-    // Add a new light button which allows admin to create a new light button/ entry
-
     <Button
         android:id="@+id/addInfoButton"
         android:layout_width="260dp"
@@ -51,6 +48,7 @@
         app:layout_constraintTop_toBottomOf="@+id/welcomeMessage"
         tools:ignore="InvalidId" />
 
+    // Add a new light button which allows admin to create a new light button/ entry
     <Button
         android:id="@+id/addNewLight"
         android:layout_width="260dp"
@@ -65,6 +63,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/addInfoButton" />
 
+    // Button that allows Admin to add users
     <Button
         android:id="@+id/addUsersButton"
         android:layout_width="260dp"
@@ -79,6 +78,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/addNewLight" />
 
+    // Button that allows Admin to remove users
     <Button
         android:id="@+id/removeUser"
         android:layout_width="260dp"
