@@ -20,16 +20,4 @@ public class WarningLightDatabase {
 
     static final ExecutorService databaseWriteExecutor = Executors.newFixedThreadPool(NUMBER_OF_THREADS);
 
-    static WarningLightDatabase getDatabase(final Context context){
-        synchronized (WarningLightDatabase.class){
-            if (INSTANCE == null) {
-                INSTANCE = Room.databaseBuilder(context.getApplicationContext(),
-                        WarningLightDatabase.class,
-                        DATABASE_NAME,
-                        .fallbackToDestructiveMigration();
-                )
-            }
-        }
-    }
-
 }
