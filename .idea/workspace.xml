@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecbb1307-e9c8-4cc6-a816-ccb9401eced7" name="Changes" comment="Everything I did yesterday, just commiting it so I have a start point for today.">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lab01/Database/AppDatabase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lab01/Database/dao/UserDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lab01/Database/entities/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lab01/auth/AuthPrefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lab01/Database/WarningLightDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lab01/Database/WarningLightDatabase.java" afterDir="false" />
-    </list>
+    <list default="true" id="ecbb1307-e9c8-4cc6-a816-ccb9401eced7" name="Changes" comment="Should've commited one at a time, but locked in a LOT. I'm focusing on making the user and login stuff rn, Alice in chains carrying today." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -210,7 +203,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763144830265</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Should've commited one at a time, but locked in a LOT. I'm focusing on making the user and login stuff rn, Alice in chains carrying today.">
+      <option name="closed" value="true" />
+      <created>1763152517393</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1763152517393</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -220,6 +221,7 @@
     <MESSAGE value="Gonna be a long day..." />
     <MESSAGE value="Idk" />
     <MESSAGE value="Everything I did yesterday, just commiting it so I have a start point for today." />
-    <option name="LAST_COMMIT_MESSAGE" value="Everything I did yesterday, just commiting it so I have a start point for today." />
+    <MESSAGE value="Should've commited one at a time, but locked in a LOT. I'm focusing on making the user and login stuff rn, Alice in chains carrying today." />
+    <option name="LAST_COMMIT_MESSAGE" value="Should've commited one at a time, but locked in a LOT. I'm focusing on making the user and login stuff rn, Alice in chains carrying today." />
   </component>
 </project>
