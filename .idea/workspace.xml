@@ -121,7 +121,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e8270f2-d15a-41f0-9afb-9764d9983097" name="Changes" comment="Made traction page">
+    <list default="true" id="9e8270f2-d15a-41f0-9afb-9764d9983097" name="Changes" comment="Made airbag page">
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -467,7 +467,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764804447714</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Made airbag page">
+      <option name="closed" value="true" />
+      <created>1764804595499</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1764804595499</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -512,7 +520,8 @@
     <MESSAGE value="Made battery page" />
     <MESSAGE value="Made temp page" />
     <MESSAGE value="Made traction page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Made traction page" />
+    <MESSAGE value="Made airbag page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Made airbag page" />
   </component>
   <component name="play_dynamic_filters_status">
     <option name="appIdToCheckInfo">
