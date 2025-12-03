@@ -45,6 +45,11 @@
           <theme>@style/Theme.Project_2</theme>
         </config>
       </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_sign_up_page.xml">
+        <config>
+          <theme>@style/Theme.Project_2</theme>
+        </config>
+      </layout>
       <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/admin_logged_in_page.xml">
         <config>
           <theme>@style/Theme.Project_2</theme>
@@ -116,8 +121,8 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e8270f2-d15a-41f0-9afb-9764d9983097" name="Changes" comment="Fixed failed sign in page">
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_sign_up_page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_sign_up_page.xml" afterDir="false" />
+    <list default="true" id="9e8270f2-d15a-41f0-9afb-9764d9983097" name="Changes" comment="Fixed info input page">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -194,7 +199,7 @@
   }
 }</component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="_Designer_Tab" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
@@ -415,7 +420,23 @@
       <option name="project" value="LOCAL" />
       <updated>1764790613055</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Fixed sign up page">
+      <option name="closed" value="true" />
+      <created>1764790904195</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1764790904195</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Fixed info input page">
+      <option name="closed" value="true" />
+      <created>1764791514258</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1764791514258</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -454,19 +475,21 @@
     <MESSAGE value="Fixed admin page" />
     <MESSAGE value="Fixed admin page again" />
     <MESSAGE value="Fixed failed sign in page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed failed sign in page" />
+    <MESSAGE value="Fixed sign up page" />
+    <MESSAGE value="Fixed info input page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed info input page" />
   </component>
   <component name="play_dynamic_filters_status">
     <option name="appIdToCheckInfo">
       <map>
         <entry key="com.example.project_2">
           <value>
-            <CheckInfo lastCheckTimestamp="1764716700104" />
+            <CheckInfo lastCheckTimestamp="1764803188035" />
           </value>
         </entry>
         <entry key="com.example.project_2.test">
           <value>
-            <CheckInfo lastCheckTimestamp="1764716700103" />
+            <CheckInfo lastCheckTimestamp="1764803188038" />
           </value>
         </entry>
       </map>

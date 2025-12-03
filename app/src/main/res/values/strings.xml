@@ -54,4 +54,7 @@
     <string name="year">Year:</string>
     <string name="pin">Pin:</string>
     <string name="continueButton">Continue</string>
+    <string name="power_steering_info">Power steering info</string>
+    <string name="tire_pressure_info_image">Tire pressure info</string>
+    <string name="tire_pressure_light_info">Tire pressure light info</string>
 </resources>
