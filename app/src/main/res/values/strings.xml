@@ -37,4 +37,9 @@
     <string name="add_new_users">Add new users</string>
     <string name="remove_users1">Remove users</string>
     <string name="welcome_admin_user">Welcome Admin User!</string>
+    <string name="please_try_again">Please Try Again</string>
+    <string name="usernameTryAgainScreen">Username:</string>
+    <string name="passwordTryAgainScreen">Password:</string>
+    <string name="don_t_have_an_accountTryAgainScreen">Don\'t have an account?</string>
+    <string name="sign_upTryAgainScreen">Sign up</string>
 </resources>

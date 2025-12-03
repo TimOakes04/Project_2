@@ -5,9 +5,10 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FailedSignInPage">
+    tools:context=".FailedSignInPage"
+    tools:ignore="ExtraText">
 
-<!--    Trouble signing in display text-->
+    // Trouble signing in display text
     <TextView
         android:id="@+id/failedSignInTextView"
         android:layout_width="match_parent"
@@ -24,7 +25,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-<!--    Re-try username display text-->
+    // Re-try username display text
     <TextView
         android:id="@+id/usernameTextView"
         android:layout_width="match_parent"
@@ -33,7 +34,7 @@
         android:background="#2C86FB"
         android:elevation="10dp"
         android:padding="25dp"
-        android:text="@string/username2"
+        android:text="@string/usernameTryAgainScreen"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="30sp"
@@ -44,7 +45,7 @@
         app:layout_constraintVertical_bias="0.03"
         tools:layout_editor_absoluteX="16dp" />
 
-<!--    Re-enter username input-->
+    // Re-enter username input
     <EditText
         android:id="@+id/username"
         android:layout_width="300dp"
@@ -64,7 +65,7 @@
         tools:layout_editor_absoluteX="100dp"
         tools:ignore="LabelFor" />
 
-<!--    Re-enter password display text-->
+    // Re-enter password display text
     <TextView
         android:id="@+id/passwordTextView"
         android:layout_width="match_parent"
@@ -73,7 +74,7 @@
         android:background="#2C86FB"
         android:elevation="10dp"
         android:padding="25dp"
-        android:text="@string/password3"
+        android:text="@string/passwordTryAgainScreen"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="30sp"
@@ -84,7 +85,7 @@
         app:layout_constraintVertical_bias="0.06"
         tools:layout_editor_absoluteX="16dp" />
 
-<!--    Re-enter password input-->
+    // Re-enter password input
     <EditText
         android:id="@+id/password"
         android:layout_width="300dp"
@@ -104,7 +105,7 @@
         tools:layout_editor_absoluteX="16dp"
         tools:ignore="LabelFor" />
 
-<!--    Background color-->
+    // Background color
     <View
         android:id="@+id/background"
         android:layout_width="match_parent"
@@ -114,7 +115,7 @@
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="-0dp" />
 
-<!--    ENTER button allows user to sign in-->
+    // ENTER button allows user to sign in
     <Button
         android:id="@+id/signInButton"
         android:layout_width="200dp"
@@ -134,12 +135,12 @@
         app:layout_constraintTop_toBottomOf="@id/passwordTextView"
         app:layout_constraintVertical_bias="0" />
 
-<!--    Don't have account display text-->
+    // Don't have account display text
     <TextView
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:gravity="center"
-        android:text="@string/dont_have_an_account"
+        android:text="@string/don_t_have_an_accountTryAgainScreen"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="@id/signUpButton"
         app:layout_constraintEnd_toEndOf="parent"
@@ -147,7 +148,7 @@
         app:layout_constraintTop_toBottomOf="@id/signInButton"
         app:layout_constraintVertical_bias="0" />
 
-<!--    SIGN UP button that sends the user to make new account screen-->
+    // SIGN UP button that sends the user to make new account screen
     <Button
         android:id="@+id/signUpButton"
         android:layout_width="200dp"
@@ -156,7 +157,7 @@
         android:backgroundTint="#0874E2"
         android:elevation="10dp"
         android:gravity="center"
-        android:text="@string/sign_up1"
+        android:text="@string/sign_upTryAgainScreen"
         android:textColor="@color/black"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
