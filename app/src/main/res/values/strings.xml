@@ -71,4 +71,6 @@
     <string name="cruise_control_light_info">Cruise control light info</string>
     <string name="power_steering_light">Power steering light</string>
     <string name="power_steering_light_info">Power steering light info</string>
+    <string name="high_beam_light">High beam light</string>
+    <string name="high_beam_light_info">High beam light info</string>
 </resources>
