@@ -25,4 +25,6 @@
     <string name="oil_pressure_info">oil pressure info</string>
     <string name="oil_pressure_light">Oil pressure light</string>
     <string name="oil_pressure_light_info">Oil pressure light info</string>
+    <string name="abs_light">ABS light</string>
+    <string name="abs_light_info">ABS light info</string>
 </resources>
