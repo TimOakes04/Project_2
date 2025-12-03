@@ -61,4 +61,6 @@
     <string name="battery_light_info">Battery light info</string>
     <string name="temp_light_info">Temp Light info</string>
     <string name="temp_light_info1">Temp light info</string>
+    <string name="traction_control_light">Traction control light</string>
+    <string name="traction_light_info">Traction light info</string>
 </resources>
