@@ -31,8 +31,8 @@
     <ImageView
         android:id="@+id/checkEngineLightInfo"
         android:layout_width="match_parent"
-        android:layout_height="560dp"
-        android:layout_marginTop="24dp"
+        android:layout_height="590dp"
+        android:layout_marginTop="8dp"
         android:contentDescription="@string/check_engine_light_info"
         android:src="@drawable/cel_info"
         app:layout_constraintEnd_toEndOf="parent"
