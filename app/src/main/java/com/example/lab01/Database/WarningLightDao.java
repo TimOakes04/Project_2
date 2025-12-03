@@ -10,9 +10,10 @@ import com.example.lab01.Database.entities.WarningLight;
 
 import java.util.List;
 
+@Dao
 public interface WarningLightDao {
     @Insert(onConflict = OnConflictStrategy.ABORT)
-    int insert(WarningLight light);
+    long insert(WarningLight light);
 
     @Update
     void update(WarningLight light);
