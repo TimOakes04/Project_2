@@ -5,9 +5,10 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SignUpPage">
+    tools:context=".SignUpPage"
+    tools:ignore="ExtraText">
 
-<!--    Sign Up display text-->
+    // Sign Up display text
     <TextView
         android:id="@+id/sign_in"
         android:layout_width="match_parent"
@@ -17,14 +18,14 @@
         android:elevation="10dp"
         android:gravity="center"
         android:padding="10dp"
-        android:text="@string/please_sign_up2"
+        android:text="@string/sign_upPage"
         android:textColor="@color/black"
         android:textSize="35sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-<!--    Username display text-->
+    // Username display text
     <TextView
         android:id="@+id/usernameTextView"
         android:layout_width="match_parent"
@@ -33,7 +34,7 @@
         android:background="#2C86FB"
         android:elevation="10dp"
         android:padding="25dp"
-        android:text="@string/username2"
+        android:text="@string/usernameSignUp"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="30sp"
@@ -44,7 +45,7 @@
         app:layout_constraintVertical_bias="0.03"
         tools:layout_editor_absoluteX="16dp" />
 
-<!--    New Username input-->
+     // New Username input
     <EditText
         android:id="@+id/newUsername"
         android:layout_width="300dp"
@@ -64,7 +65,7 @@
         tools:layout_editor_absoluteX="100dp"
         tools:ignore="LabelFor" />
 
-<!--    Password display text-->
+    // Password display text
     <TextView
         android:id="@+id/passwordTextView"
         android:layout_width="match_parent"
@@ -73,7 +74,7 @@
         android:background="#2C86FB"
         android:elevation="10dp"
         android:padding="25dp"
-        android:text="@string/password3"
+        android:text="@string/passwordSignUp"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="30sp"
@@ -84,7 +85,7 @@
         app:layout_constraintVertical_bias="0.06"
         tools:layout_editor_absoluteX="16dp" />
 
-<!--    New Password input-->
+    // New Password input
     <EditText
         android:id="@+id/newPassword"
         android:layout_width="300dp"
@@ -104,7 +105,7 @@
         tools:layout_editor_absoluteX="16dp"
         tools:ignore="LabelFor" />
 
-<!--    Re-enter Password display text-->
+    // Re-enter Password display text
     <TextView
         android:id="@+id/rePasswordTextView"
         android:layout_width="match_parent"
@@ -113,7 +114,7 @@
         android:background="#2C86FB"
         android:elevation="10dp"
         android:padding="25dp"
-        android:text="@string/re_enter_password"
+        android:text="@string/re_enter_passwordSignUp"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="30sp"
@@ -124,7 +125,7 @@
         app:layout_constraintVertical_bias="0.06"
         tools:layout_editor_absoluteX="16dp" />
 
-<!--    Re-enter new password input-->
+    // Re-enter new password input
     <EditText
         android:id="@+id/reNewPassword"
         android:layout_width="300dp"
@@ -144,7 +145,7 @@
         tools:layout_editor_absoluteX="16dp"
         tools:ignore="LabelFor" />
 
-<!--    Background color-->
+    // Background color
     <View
         android:id="@+id/background"
         android:layout_width="match_parent"
@@ -154,7 +155,7 @@
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="0dp" />
 
-<!--    SIGN UP button enters all info and saves it to DAO-->
+    // SIGN UP button enters all info and saves it to DAO
     <Button
         android:id="@+id/signUpNewButton"
         android:layout_width="200dp"
@@ -163,7 +164,7 @@
         android:backgroundTint="#0874E2"
         android:elevation="10dp"
         android:gravity="center"
-        android:text="@string/sign_up1"
+        android:text="@string/sign_upSignUp"
         android:textColor="@color/black"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"

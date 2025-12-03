@@ -42,4 +42,9 @@
     <string name="passwordTryAgainScreen">Password:</string>
     <string name="don_t_have_an_accountTryAgainScreen">Don\'t have an account?</string>
     <string name="sign_upTryAgainScreen">Sign up</string>
+    <string name="sign_upPage">Sign up:</string>
+    <string name="usernameSignUp">Username:</string>
+    <string name="passwordSignUp">Password:</string>
+    <string name="re_enter_passwordSignUp">Re-Enter Password:</string>
+    <string name="sign_upSignUp">Sign up</string>
 </resources>
