@@ -15,4 +15,12 @@
     <string name="check_engine_light_info">Check engine light info</string>
     <string name="check_engine_light_image">Check engine light image</string>
     <string name="back">Back</string>
+    <string name="brake_system_info">Brake system info</string>
+    <string name="airbag_light_info">Airbag light info</string>
+    <string name="brake_system_light_info">Brake system light info</string>
+    <string name="cruise_control_info">Cruise control info</string>
+    <string name="turn_signal_info">Turn signal info</string>
+    <string name="high_beam_info">High beam info</string>
+    <string name="abs_info">abs info</string>
+    <string name="oil_pressure_info">oil pressure info</string>
 </resources>

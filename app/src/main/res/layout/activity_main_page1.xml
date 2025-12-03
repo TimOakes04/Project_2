@@ -62,7 +62,7 @@
         android:layout_height="150dp"
         android:layout_marginTop="35dp"
         android:backgroundTint="#F62D2D"
-        android:contentDescription="@string/sends_to_screen_of_info"
+        android:contentDescription="@string/oil_pressure_info"
         android:elevation="10dp"
         android:padding="18dp"
         android:scaleType="fitCenter"
@@ -71,7 +71,7 @@
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/checkEngineLightButton"
-        tools:ignore="RtlSymmetry" />
+        tools:ignore="ContentDescription,RtlSymmetry" />
 
     /*
     ABS light button that when
@@ -81,9 +81,9 @@
         android:id="@+id/absButton"
         android:layout_width="300dp"
         android:layout_height="150dp"
-        android:layout_marginTop="35dp"
+        android:layout_marginTop="28dp"
         android:backgroundTint="#F6D02D"
-        android:contentDescription="@string/sends_to_screen_of_info"
+        android:contentDescription="@string/abs_info"
         android:elevation="10dp"
         android:padding="20dp"
         android:scaleType="fitCenter"
@@ -92,18 +92,20 @@
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/lowOilPressureLightButton"
-        tools:ignore="RtlSymmetry" />
+        tools:ignore="ContentDescription,RtlSymmetry" />
 
     // Button that allows user to go to the next page of lights
     <Button
         android:id="@+id/page2"
         android:layout_width="200dp"
         android:layout_height="100dp"
+        android:layout_marginTop="16dp"
         android:backgroundTint="@color/white"
         android:text="Continue"
         android:textColor="@color/black"
         android:textSize="28sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/absButton"
         tools:ignore="HardcodedText" />
