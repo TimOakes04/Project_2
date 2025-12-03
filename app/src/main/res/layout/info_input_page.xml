@@ -31,7 +31,7 @@
         android:elevation="10dp"
         android:gravity="center"
         android:paddingBottom="37dp"
-        android:text="@string/vin_number1"
+        android:text="vin number"
         android:textColor="@color/white"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"

@@ -10,6 +10,16 @@
           <theme>@style/Theme.Project_2</theme>
         </config>
       </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_admin_logged_in_page.xml">
+        <config>
+          <theme>@style/Theme.Project_2</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_failed_sign_in_page.xml">
+        <config>
+          <theme>@style/Theme.Project_2</theme>
+        </config>
+      </layout>
       <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main_page1.xml">
         <config>
           <theme>@style/Theme.Project_2</theme>
@@ -35,7 +45,32 @@
           <theme>@style/Theme.Project_2</theme>
         </config>
       </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/airbag_page.xml">
+        <config>
+          <theme>@style/Theme.Project_2</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/battery_page.xml">
+        <config>
+          <theme>@style/Theme.Project_2</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/brake_system_page.xml">
+        <config>
+          <theme>@style/Theme.Project_2</theme>
+        </config>
+      </layout>
       <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/check_engine_page.xml">
+        <config>
+          <theme>@style/Theme.Project_2</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/cruise_control_page.xml">
+        <config>
+          <theme>@style/Theme.Project_2</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/high_beam_page.xml">
         <config>
           <theme>@style/Theme.Project_2</theme>
         </config>
@@ -50,6 +85,26 @@
           <theme>@style/Theme.Project_2</theme>
         </config>
       </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/temp_page.xml">
+        <config>
+          <theme>@style/Theme.Project_2</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/tpms_page.xml">
+        <config>
+          <theme>@style/Theme.Project_2</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/traction_page.xml">
+        <config>
+          <theme>@style/Theme.Project_2</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/turn_signal.xml">
+        <config>
+          <theme>@style/Theme.Project_2</theme>
+        </config>
+      </layout>
     </layouts>
   </component>
   <component name="AutoImportSettings">
@@ -57,7 +112,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e8270f2-d15a-41f0-9afb-9764d9983097" name="Changes" comment="oil pressure light page done touches">
+      <change beforePath="$PROJECT_DIR$/.gradle/8.13/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_login_page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login_page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/info_input_page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/info_input_page.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -134,7 +192,7 @@
   }
 }</component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="_Designer_Tab" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
