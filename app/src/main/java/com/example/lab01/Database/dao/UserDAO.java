@@ -8,6 +8,7 @@ import androidx.room.Query;
 import com.example.lab01.Database.entities.User;
 @Dao
 public interface UserDAO {
+
     @Query("SELECT * FROM users WHERE id = :id LIMIT 1")
     User getById (int id);
 
