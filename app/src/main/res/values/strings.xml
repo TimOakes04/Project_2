@@ -59,4 +59,6 @@
     <string name="tire_pressure_light_info">Tire pressure light info</string>
     <string name="battery_light">Battery light</string>
     <string name="battery_light_info">Battery light info</string>
+    <string name="temp_light_info">Temp Light info</string>
+    <string name="temp_light_info1">Temp light info</string>
 </resources>
