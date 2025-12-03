@@ -34,4 +34,7 @@
     <string name="enter">Enter</string>
     <string name="don_t_have_an_account">Don\'t have an account:</string>
     <string name="sign_up">Sign up</string>
+    <string name="add_new_users">Add new users</string>
+    <string name="remove_users1">Remove users</string>
+    <string name="welcome_admin_user">Welcome Admin User!</string>
 </resources>

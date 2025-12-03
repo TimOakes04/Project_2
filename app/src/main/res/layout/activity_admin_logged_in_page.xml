@@ -5,16 +5,17 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AdminLoggedInPage">
+    tools:context=".AdminLoggedInPage"
+    tools:ignore="ExtraText">
 
-<!--    Display admin logged in display text-->
+    // Display admin logged in display text
     <TextView
         android:id="@+id/welcomeMessage"
         android:layout_width="match_parent"
         android:layout_height="150dp"
         android:elevation="10dp"
         android:gravity="center"
-        android:text="@string/welcome_admin_username"
+        android:text="@string/welcome_admin_user"
         android:textColor="@color/black"
         android:textSize="49sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -22,7 +23,7 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
 
-<!--    Background color-->
+    // Background color
     <View
         android:id="@+id/background"
         android:layout_width="match_parent"
@@ -32,35 +33,35 @@
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="0dp" />
 
-<!--    Add new info button allows admin to add/ change info to current light-->
+    // Remove users button
     <Button
-        android:id="@+id/addInfoButton"
+        android:id="@+id/removeUserButton"
         android:layout_width="290dp"
         android:layout_height="130dp"
-        android:layout_marginTop="48dp"
         android:backgroundTint="#0874E2"
-        android:text="@string/add_new_info"
-        android:textColor="@color/black"
-        android:textSize="38sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/welcomeMessage"
-        tools:ignore="InvalidId" />
-
-<!--    Add a new light button which allows admin to create a new light button/ entry-->
-    <Button
-        android:id="@+id/addNewLight"
-        android:layout_width="290dp"
-        android:layout_height="130dp"
-        android:layout_marginTop="96dp"
-        android:backgroundTint="#0874E2"
-        android:text="@string/add_a_new_light"
+        android:text="@string/remove_users1"
         android:textColor="@color/black"
         android:textSize="38sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/addInfoButton" />
+        app:layout_constraintBottom_toTopOf="@+id/addNewUserButton"
+        tools:ignore="InvalidId,UnknownId"
+        tools:layout_editor_absoluteY="483dp" />
+
+    // Add new users button
+    <Button
+        android:id="@+id/addNewUserButon"
+        android:layout_width="290dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="68dp"
+        android:backgroundTint="#0874E2"
+        android:text="@string/add_new_users"
+        android:textColor="@color/black"
+        android:textSize="38sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/welcomeMessage" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
