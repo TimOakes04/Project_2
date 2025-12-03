@@ -67,4 +67,6 @@
     <string name="airbag_light_info1">Airbag light info</string>
     <string name="brake_system_light">Brake system light</string>
     <string name="brake_system_light_info1">Brake system light info</string>
+    <string name="cruise_control_light">Cruise control light</string>
+    <string name="cruise_control_light_info">Cruise control light info</string>
 </resources>
