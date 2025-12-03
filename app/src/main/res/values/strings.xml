@@ -47,4 +47,11 @@
     <string name="passwordSignUp">Password:</string>
     <string name="re_enter_passwordSignUp">Re-Enter Password:</string>
     <string name="sign_upSignUp">Sign up</string>
+    <string name="enter_the_following_info_about_your_vehicle">Enter the following info about your vehicle:</string>
+    <string name="vin_number">Vin number:</string>
+    <string name="make">Make:</string>
+    <string name="model">Model:</string>
+    <string name="year">Year:</string>
+    <string name="pin">Pin:</string>
+    <string name="continueButton">Continue</string>
 </resources>
