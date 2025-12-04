@@ -121,11 +121,10 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e8270f2-d15a-41f0-9afb-9764d9983097" name="Changes" comment="Added MainPage3.java">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/MainPage4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/mainPage3/BrakePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/mainPage3/SRSPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/mainPage3/TCSPage.java" afterDir="false" />
+    <list default="true" id="9e8270f2-d15a-41f0-9afb-9764d9983097" name="Changes" comment="Added full functionality to activity_main_page3 and all sub-pages.&#10;Added MainPage4.java">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/mainPage4/BeamPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/mainPage4/CruisePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/mainPage4/PSteeringPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.13/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.13/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.13/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/fileHashes/fileHashes.bin" afterDir="false" />
@@ -134,8 +133,8 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/MainPage3.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/MainPage3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main_page3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main_page3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/MainPage4.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/MainPage4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main_page4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main_page4.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -245,8 +244,9 @@
       <recent name="" />
     </key>
     <key name="android.template.151405504">
-      <recent name="com.example.project_2" />
+      <recent name="com.example.project_2.mainPage4" />
       <recent name="com.example.project_2.mainPage3" />
+      <recent name="com.example.project_2" />
       <recent name="com.example.project_2.mainPage2" />
     </key>
   </component>
@@ -572,7 +572,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764818060199</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Added full functionality to activity_main_page3 and all sub-pages.&#10;Added MainPage4.java">
+      <option name="closed" value="true" />
+      <created>1764819024787</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1764819024787</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -599,7 +607,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Made images have text in them instead of on them." />
     <MESSAGE value="add comments later" />
     <MESSAGE value="Made check_engine_page.xml again..." />
     <MESSAGE value="Made all 4 main_activity pages" />
@@ -624,7 +631,8 @@
     <MESSAGE value="Moved sub-pages for main_page1 into seperate package for less clutter." />
     <MESSAGE value="Added full functionality to activity_main_page2 and all sub-pages" />
     <MESSAGE value="Added MainPage3.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added MainPage3.java" />
+    <MESSAGE value="Added full functionality to activity_main_page3 and all sub-pages.&#10;Added MainPage4.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added full functionality to activity_main_page3 and all sub-pages.&#10;Added MainPage4.java" />
   </component>
   <component name="play_dynamic_filters_status">
     <option name="appIdToCheckInfo">

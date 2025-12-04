@@ -12,6 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Project_2">
         <activity
+            android:name=".mainPage4.BeamPage"
+            android:exported="false" />
+        <activity
+            android:name=".mainPage4.PSteeringPage"
+            android:exported="false" />
+        <activity
+            android:name=".mainPage4.CruisePage"
+            android:exported="false" />
+        <activity
             android:name=".MainPage4"
             android:exported="false" />
         <activity
