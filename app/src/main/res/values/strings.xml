@@ -73,4 +73,6 @@
     <string name="power_steering_light_info">Power steering light info</string>
     <string name="high_beam_light">High beam light</string>
     <string name="high_beam_light_info">High beam light info</string>
+    <string name="backMainPage2">Back</string>
+    <string name="back1">Back</string>
 </resources>
