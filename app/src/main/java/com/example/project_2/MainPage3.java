@@ -12,6 +12,7 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 import com.example.project_2.databinding.ActivityMainPage3Binding;
+import com.example.project_2.mainPage3.*;
 
 public class MainPage3 extends AppCompatActivity {
     ActivityMainPage3Binding binding;
@@ -25,13 +26,21 @@ public class MainPage3 extends AppCompatActivity {
         binding.page2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-//                Intent intent = MainPage3.mainPage4IntentFactory(getApplicationContext());
-//                startActivity(intent);
+                Intent intent = MainPage4.mainPage4IntentFactory(getApplicationContext());
+                startActivity(intent);
             }
         });
     }
 
-
+    public void TCT(View v){
+        startActivity(TCSPage.tcsPageIntentFactory(getApplicationContext()));
+    }
+    public void SRS(View v){
+        startActivity(SRSPage.srsPageIntentFactory(getApplicationContext()));
+    }
+    public void Brake(View v){
+        startActivity(BrakePage.brakePageIntentFactory(getApplicationContext()));
+    }
 
     public static Intent mainPage3IntentFactory(Context context){
         return new Intent(context, MainPage3.class);
