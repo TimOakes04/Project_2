@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Project_2" >
         <activity
+            android:name=".MainPage1"
+            android:exported="false" />
+        <activity
             android:name=".AdminLoggedInPage"
             android:exported="false" />
         <activity

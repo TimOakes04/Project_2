@@ -23,7 +23,7 @@
         android:layout_height="160dp"
         android:contentDescription="@string/traction_control_light"
         android:padding="8dp"
-        android:src="@drawable/Traction1"
+        android:src="@drawable/traction1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="ContentDescription" />

@@ -23,7 +23,7 @@
         android:layout_height="160dp"
         android:contentDescription="@string/airbag_image"
         android:padding="8dp"
-        android:src="@drawable/Airbag1"
+        android:src="@drawable/airbag1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="ContentDescription" />
