@@ -29,6 +29,14 @@ public class MainPage2 extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        // Set onclick listener to Back button
+        binding.backButtonMainPage2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(MainPage1.mainPage1IntentFactory(getApplicationContext()));
+            }
+        });
     }
 
     public void LTP(View v){
