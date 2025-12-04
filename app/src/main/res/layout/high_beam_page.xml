@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="ExtraText">
+
+    // Background color
+    <View
+        android:id="@+id/background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#0A408F"
+        android:elevation="0dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-25dp" />
+
+    // High beam light image
+    <ImageView
+        android:id="@+id/highBeamLightImage"
+        android:layout_width="300dp"
+        android:layout_height="160dp"
+        android:contentDescription="@string/high_beam_light"
+        android:padding="8dp"
+        android:src="@drawable/HighBeam1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+
+    // High beam light text
+    <ImageView
+        android:id="@+id/highBeamLightInfo"
+        android:layout_width="match_parent"
+        android:layout_height="590dp"
+        android:contentDescription="@string/high_beam_light_info"
+        android:src="@drawable/high_beam_info"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/backOutButton" />
+
+    // A button that allows the user to back out to the main page that they were on
+    <Button
+        android:id="@+id/backOutButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/back"
+        android:textColor="@color/black"
+        android:textSize="23sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@id/highBeamLightImage"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
