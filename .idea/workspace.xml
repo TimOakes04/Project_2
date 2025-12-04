@@ -121,11 +121,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e8270f2-d15a-41f0-9afb-9764d9983097" name="Changes" comment="Made login page go to MainPage1&#10;Made MainPage1.java&#10;Uncapitalized drawable files and references to them since Android Studio didn't like it.">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/ABSPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/CELPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/LOPPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/MainPage2.java" afterDir="false" />
+    <list default="true" id="9e8270f2-d15a-41f0-9afb-9764d9983097" name="Changes" comment="Added full button functionality for activity_main_page1 and all it's sub-pages.">
       <change beforePath="$PROJECT_DIR$/.gradle/8.13/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.13/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.13/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/fileHashes/fileHashes.bin" afterDir="false" />
@@ -134,8 +130,10 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/ABSPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/mainPage1/ABSPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/CELPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/mainPage1/CELPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/LOPPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/mainPage1/LOPPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/MainPage1.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/MainPage1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main_page1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main_page1.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -537,7 +535,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764810581559</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Added full button functionality for activity_main_page1 and all it's sub-pages.">
+      <option name="closed" value="true" />
+      <created>1764811973307</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1764811973307</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -588,7 +594,8 @@
     <MESSAGE value="Made power steering page" />
     <MESSAGE value="Made high beam page" />
     <MESSAGE value="Made login page go to MainPage1&#10;Made MainPage1.java&#10;Uncapitalized drawable files and references to them since Android Studio didn't like it." />
-    <option name="LAST_COMMIT_MESSAGE" value="Made login page go to MainPage1&#10;Made MainPage1.java&#10;Uncapitalized drawable files and references to them since Android Studio didn't like it." />
+    <MESSAGE value="Added full button functionality for activity_main_page1 and all it's sub-pages." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added full button functionality for activity_main_page1 and all it's sub-pages." />
   </component>
   <component name="play_dynamic_filters_status">
     <option name="appIdToCheckInfo">

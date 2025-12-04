@@ -1,26 +1,21 @@
-package com.example.project_2;
+package com.example.project_2.mainPage1;
 
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
-import com.example.project_2.databinding.OilPressurePageBinding;
+import com.example.project_2.MainPage1;
+import com.example.project_2.databinding.CheckEnginePageBinding;
 
-public class LOPPage extends AppCompatActivity {
-
-    OilPressurePageBinding binding;
-
+public class CELPage extends AppCompatActivity {
+    CheckEnginePageBinding binding;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        binding = OilPressurePageBinding.inflate(getLayoutInflater());
+        binding = CheckEnginePageBinding.inflate(getLayoutInflater());
         View view = binding.getRoot();
         setContentView(view);
 
@@ -33,7 +28,7 @@ public class LOPPage extends AppCompatActivity {
         });
     }
 
-    public static Intent lopPageIntentFactory(Context context){
-        return new Intent(context, LOPPage.class);
+    public static Intent celPageIntentFactory(Context context){
+        return new Intent(context, CELPage.class);
     }
 }

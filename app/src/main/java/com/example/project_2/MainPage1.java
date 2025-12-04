@@ -5,14 +5,10 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
-import com.example.project_2.databinding.ActivityFailedSignInPageBinding;
 import com.example.project_2.databinding.ActivityMainPage1Binding;
+import com.example.project_2.mainPage1.*;
 
 public class MainPage1 extends AppCompatActivity {
 

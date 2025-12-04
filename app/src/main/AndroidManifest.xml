@@ -12,13 +12,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Project_2">
         <activity
-            android:name=".ABSPage"
+            android:name=".mainPage1.ABSPage"
             android:exported="false" />
         <activity
-            android:name=".LOPPage"
+            android:name=".mainPage1.LOPPage"
             android:exported="false" />
         <activity
-            android:name=".CELPage"
+            android:name=".mainPage1.CELPage"
             android:exported="false" />
         <activity
             android:name=".MainPage2"

@@ -1,24 +1,22 @@
-package com.example.project_2;
+package com.example.project_2.mainPage1;
 
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
-import com.example.project_2.databinding.CheckEnginePageBinding;
+import com.example.project_2.MainPage1;
+import com.example.project_2.databinding.AbsPageBinding;
 
-public class CELPage extends AppCompatActivity {
-    CheckEnginePageBinding binding;
+public class ABSPage extends AppCompatActivity {
+    AbsPageBinding binding;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        binding = CheckEnginePageBinding.inflate(getLayoutInflater());
+        binding = AbsPageBinding.inflate(getLayoutInflater());
         View view = binding.getRoot();
         setContentView(view);
 
@@ -31,7 +29,7 @@ public class CELPage extends AppCompatActivity {
         });
     }
 
-    public static Intent celPageIntentFactory(Context context){
-        return new Intent(context, CELPage.class);
+    public static Intent absPageIntentFactory(Context context){
+        return new Intent(context, ABSPage.class);
     }
 }
