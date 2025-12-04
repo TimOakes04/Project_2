@@ -25,8 +25,8 @@ public class MainPage2 extends AppCompatActivity {
         binding.page2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-//                Intent intent = MainPage3.mainPage3IntentFactory(getApplicationContext());
-//                startActivity(intent);
+                Intent intent = MainPage3.mainPage3IntentFactory(getApplicationContext());
+                startActivity(intent);
             }
         });
     }

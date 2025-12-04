@@ -121,10 +121,8 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e8270f2-d15a-41f0-9afb-9764d9983097" name="Changes" comment="Moved sub-pages for main_page1 into seperate package for less clutter.">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/mainPage2/BatteryPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/mainPage2/LTPPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/mainPage2/TempPage.java" afterDir="false" />
+    <list default="true" id="9e8270f2-d15a-41f0-9afb-9764d9983097" name="Changes" comment="Added full functionality to activity_main_page2 and all sub-pages">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/MainPage3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.13/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.13/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.13/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/fileHashes/fileHashes.bin" afterDir="false" />
@@ -134,7 +132,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/MainPage2.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/MainPage2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main_page2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main_page2.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -235,6 +232,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
+    "com.google.services.firebase.aqiPopupShown": "true",
     "git-widget-placeholder": "Login"
   }
 }]]></component>
@@ -553,7 +551,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764812096453</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Added full functionality to activity_main_page2 and all sub-pages">
+      <option name="closed" value="true" />
+      <created>1764817689067</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1764817689067</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -580,7 +586,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="testing2" />
     <MESSAGE value="Made info page input screen" />
     <MESSAGE value="Made images have text in them instead of on them." />
     <MESSAGE value="add comments later" />
@@ -605,7 +610,8 @@
     <MESSAGE value="Made login page go to MainPage1&#10;Made MainPage1.java&#10;Uncapitalized drawable files and references to them since Android Studio didn't like it." />
     <MESSAGE value="Added full button functionality for activity_main_page1 and all it's sub-pages." />
     <MESSAGE value="Moved sub-pages for main_page1 into seperate package for less clutter." />
-    <option name="LAST_COMMIT_MESSAGE" value="Moved sub-pages for main_page1 into seperate package for less clutter." />
+    <MESSAGE value="Added full functionality to activity_main_page2 and all sub-pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added full functionality to activity_main_page2 and all sub-pages" />
   </component>
   <component name="play_dynamic_filters_status">
     <option name="appIdToCheckInfo">
