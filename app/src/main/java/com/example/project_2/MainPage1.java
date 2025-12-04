@@ -24,6 +24,25 @@ public class MainPage1 extends AppCompatActivity {
         binding = ActivityMainPage1Binding.inflate(getLayoutInflater());
         View view = binding.getRoot();
         setContentView(view);
+
+        // Set onclick listener to Continue button
+        binding.page2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = MainPage2.mainPage2IntentFactory(getApplicationContext());
+                startActivity(intent);
+            }
+        });
+    }
+
+    public void CEL(View v){
+        startActivity(CELPage.celPageIntentFactory(getApplicationContext()));
+    }
+    public void LOP(View v){
+        startActivity(LOPPage.lopPageIntentFactory(getApplicationContext()));
+    }
+    public void ABS(View v){
+        startActivity(ABSPage.absPageIntentFactory(getApplicationContext()));
     }
 
     public static Intent mainPage1IntentFactory(Context context){
