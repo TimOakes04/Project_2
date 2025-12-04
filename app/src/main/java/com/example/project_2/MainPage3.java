@@ -30,6 +30,14 @@ public class MainPage3 extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        // Set onclick listener to Back button
+        binding.backButtonMainPage3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(MainPage2.mainPage2IntentFactory(getApplicationContext()));
+            }
+        });
     }
 
     public void TCT(View v){

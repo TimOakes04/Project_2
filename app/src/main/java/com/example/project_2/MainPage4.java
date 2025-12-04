@@ -33,6 +33,13 @@ public class MainPage4 extends AppCompatActivity {
             }
         });
         */
+        // Set onclick listener for Back button
+        binding.backButtonMainPage4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(MainPage3.mainPage3IntentFactory(getApplicationContext()));
+            }
+        });
     }
 
     public void Cruise(View v){

@@ -116,7 +116,21 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e8270f2-d15a-41f0-9afb-9764d9983097" name="Changes" comment="Back buttons for the main pages" />
+    <list default="true" id="9e8270f2-d15a-41f0-9afb-9764d9983097" name="Changes" comment="Added full functionality to activity_main_page3 and all sub-pages.&#10;Added MainPage4.java">
+      <change beforePath="$PROJECT_DIR$/.gradle/8.13/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.13/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.13/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.13/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.13/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/MainPage2.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/MainPage2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/MainPage3.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/MainPage3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/MainPage4.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/MainPage4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/problems/problems-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/problems/problems-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -125,7 +139,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=LocalEmulator, isTemplate=false, identifier=path=/Users/timoakes/.android/avd/Pixel_5_Test.avd)]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=LocalEmulator, isTemplate=false, identifier=path=C:\Users\peter\.android\avd\Medium_Phone.avd)]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -152,6 +166,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="layoutResourceFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -172,7 +187,7 @@
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="UI" />
+        <entry key="$PROJECT_DIR$" value="Login" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -204,20 +219,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Android App.app.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;UI&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Android App.app.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "com.google.services.firebase.aqiPopupShown": "true",
+    "git-widget-placeholder": "Login",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveInnerDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="android.template.151405504">
+      <recent name="com.example.project_2.mainPage4" />
+      <recent name="com.example.project_2.mainPage3" />
+      <recent name="com.example.project_2" />
+      <recent name="com.example.project_2.mainPage2" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="Project_2.app" />
@@ -500,31 +529,55 @@
       <option name="project" value="LOCAL" />
       <updated>1764805235153</updated>
     </task>
-    <task id="LOCAL-00026" summary="sending everything I think?">
+    <task id="LOCAL-00026" summary="Made login page go to MainPage1&#10;Made MainPage1.java&#10;Uncapitalized drawable files and references to them since Android Studio didn't like it.">
       <option name="closed" value="true" />
-      <created>1764809362847</created>
+      <created>1764810581559</created>
       <option name="number" value="00026" />
       <option name="presentableId" value="LOCAL-00026" />
       <option name="project" value="LOCAL" />
-      <updated>1764809362847</updated>
+      <updated>1764810581559</updated>
     </task>
-    <task id="LOCAL-00027" summary="Back buttons for the main pages">
+    <task id="LOCAL-00027" summary="Added full button functionality for activity_main_page1 and all it's sub-pages.">
       <option name="closed" value="true" />
-      <created>1764820933481</created>
+      <created>1764811973307</created>
       <option name="number" value="00027" />
       <option name="presentableId" value="LOCAL-00027" />
       <option name="project" value="LOCAL" />
-      <updated>1764820933481</updated>
+      <updated>1764811973307</updated>
     </task>
-    <task id="LOCAL-00028" summary="Back buttons for the main pages">
+    <task id="LOCAL-00028" summary="Moved sub-pages for main_page1 into seperate package for less clutter.">
       <option name="closed" value="true" />
-      <created>1764820965979</created>
+      <created>1764812096453</created>
       <option name="number" value="00028" />
       <option name="presentableId" value="LOCAL-00028" />
       <option name="project" value="LOCAL" />
-      <updated>1764820965979</updated>
+      <updated>1764812096453</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Added full functionality to activity_main_page2 and all sub-pages">
+      <option name="closed" value="true" />
+      <created>1764817689067</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1764817689067</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Added MainPage3.java">
+      <option name="closed" value="true" />
+      <created>1764818060199</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1764818060199</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Added full functionality to activity_main_page3 and all sub-pages.&#10;Added MainPage4.java">
+      <option name="closed" value="true" />
+      <created>1764819024787</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1764819024787</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -551,10 +604,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="testing" />
-    <MESSAGE value="testing2" />
-    <MESSAGE value="Made info page input screen" />
-    <MESSAGE value="Made images have text in them instead of on them." />
     <MESSAGE value="add comments later" />
     <MESSAGE value="Made check_engine_page.xml again..." />
     <MESSAGE value="Made all 4 main_activity pages" />
@@ -574,9 +623,13 @@
     <MESSAGE value="Made cruise control page" />
     <MESSAGE value="Made power steering page" />
     <MESSAGE value="Made high beam page" />
-    <MESSAGE value="sending everything I think?" />
-    <MESSAGE value="Back buttons for the main pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="Back buttons for the main pages" />
+    <MESSAGE value="Made login page go to MainPage1&#10;Made MainPage1.java&#10;Uncapitalized drawable files and references to them since Android Studio didn't like it." />
+    <MESSAGE value="Added full button functionality for activity_main_page1 and all it's sub-pages." />
+    <MESSAGE value="Moved sub-pages for main_page1 into seperate package for less clutter." />
+    <MESSAGE value="Added full functionality to activity_main_page2 and all sub-pages" />
+    <MESSAGE value="Added MainPage3.java" />
+    <MESSAGE value="Added full functionality to activity_main_page3 and all sub-pages.&#10;Added MainPage4.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added full functionality to activity_main_page3 and all sub-pages.&#10;Added MainPage4.java" />
   </component>
   <component name="play_dynamic_filters_status">
     <option name="appIdToCheckInfo">
