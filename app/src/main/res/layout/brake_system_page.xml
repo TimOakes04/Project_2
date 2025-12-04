@@ -23,7 +23,7 @@
         android:layout_height="160dp"
         android:contentDescription="@string/brake_system_light"
         android:padding="8dp"
-        android:src="@drawable/BrakeSystem1"
+        android:src="@drawable/brake_system1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="ContentDescription" />

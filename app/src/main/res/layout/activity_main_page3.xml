@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    tools:context=".MainPage3"
     tools:ignore="ExtraText">
 
     // Background
@@ -44,7 +44,8 @@
         android:elevation="10dp"
         android:padding="18dp"
         android:scaleType="fitCenter"
-        android:src="@drawable/Traction1"
+        android:src="@drawable/traction1"
+        android:onClick="TCT"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/displayUsername"
@@ -66,7 +67,8 @@
         android:elevation="10dp"
         android:padding="16dp"
         android:scaleType="fitCenter"
-        android:src="@drawable/Airbag1"
+        android:src="@drawable/airbag1"
+        android:onClick="SRS"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
@@ -87,7 +89,8 @@
         android:elevation="10dp"
         android:padding="15dp"
         android:scaleType="fitCenter"
-        android:src="@drawable/BrakeSystem1"
+        android:src="@drawable/brake_system1"
+        android:onClick="Brake"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"

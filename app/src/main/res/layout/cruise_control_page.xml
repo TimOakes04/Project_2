@@ -23,7 +23,7 @@
         android:layout_height="160dp"
         android:contentDescription="@string/cruise_control_light"
         android:padding="8dp"
-        android:src="@drawable/CruiseControl1"
+        android:src="@drawable/cruise_control1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="ContentDescription" />

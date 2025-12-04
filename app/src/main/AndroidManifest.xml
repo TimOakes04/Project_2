@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" >
+    xmlns:tools="http://schemas.android.com/tools">
 
     <application
         android:allowBackup="true"
@@ -10,7 +10,64 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Project_2" >
+        android:theme="@style/Theme.Project_2">
+        <activity
+            android:name=".mainPage4.BeamPage"
+            android:exported="false" />
+        <activity
+            android:name=".mainPage4.PSteeringPage"
+            android:exported="false" />
+        <activity
+            android:name=".mainPage4.CruisePage"
+            android:exported="false" />
+        <activity
+            android:name=".MainPage4"
+            android:exported="false" />
+        <activity
+            android:name=".mainPage3.BrakePage"
+            android:exported="false" />
+        <activity
+            android:name=".mainPage3.SRSPage"
+            android:exported="false" />
+        <activity
+            android:name=".mainPage3.TCSPage"
+            android:exported="false" />
+        <activity
+            android:name=".MainPage3"
+            android:exported="false" />
+        <activity
+            android:name=".mainPage2.TempPage"
+            android:exported="false" />
+        <activity
+            android:name=".mainPage2.TempPage"
+            android:exported="false" />
+        <activity
+            android:name=".mainPage2.BatteryPage"
+            android:exported="false" />
+        <activity
+            android:name=".mainPage2.BatteryPage"
+            android:exported="false" />
+        <activity
+            android:name=".mainPage2.LTPPage"
+            android:exported="false" />
+        <activity
+            android:name=".mainPage2.LTPPage"
+            android:exported="false" />
+        <activity
+            android:name=".mainPage1.ABSPage"
+            android:exported="false" />
+        <activity
+            android:name=".mainPage1.LOPPage"
+            android:exported="false" />
+        <activity
+            android:name=".mainPage1.CELPage"
+            android:exported="false" />
+        <activity
+            android:name=".MainPage2"
+            android:exported="false" />
+        <activity
+            android:name=".MainPage1"
+            android:exported="false" />
         <activity
             android:name=".AdminLoggedInPage"
             android:exported="false" />
@@ -25,7 +82,7 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

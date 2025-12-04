@@ -44,8 +44,15 @@ public class MainActivity extends AppCompatActivity {
         String username = binding.username.getText().toString();
         String password = binding.password.getText().toString();
 
-        // For now just default to failed_sign_in page
-        Intent intent = FailedSignInPage.failedSignInPageIntentFactory(getApplicationContext());
-        startActivity(intent);
+        // failed
+        if(false) {
+            Intent intent = FailedSignInPage.failedSignInPageIntentFactory(getApplicationContext());
+            startActivity(intent);
+        }
+        // passed
+        if(true){
+            Intent intent = MainPage1.mainPage1IntentFactory(getApplicationContext());
+            startActivity(intent);
+        }
     }
 }
