@@ -5,13 +5,10 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
 import com.example.project_2.databinding.ActivityMainPage2Binding;
+import com.example.project_2.mainPage2.*;
 
 public class MainPage2 extends AppCompatActivity {
 
@@ -24,7 +21,24 @@ public class MainPage2 extends AppCompatActivity {
         View view = binding.getRoot();
         setContentView(view);
 
-        // Set onclick listener for Continue button
+        // Set onclick listener to Continue button
+        binding.page2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+//                Intent intent = MainPage3.mainPage3IntentFactory(getApplicationContext());
+//                startActivity(intent);
+            }
+        });
+    }
+
+    public void LTP(View v){
+        startActivity(LTPPage.ltpPageIntentFactory(getApplicationContext()));
+    }
+    public void Battery(View v){
+        startActivity(BatteryPage.batteryPageIntentFactory(getApplicationContext()));
+    }
+    public void Temp(View v){
+        startActivity(TempPage.tempPageIntentFactory(getApplicationContext()));
     }
 
     public static Intent mainPage2IntentFactory(Context context){

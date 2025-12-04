@@ -12,6 +12,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Project_2">
         <activity
+            android:name=".mainPage2.TempPage"
+            android:exported="false" />
+        <activity
+            android:name=".mainPage2.BatteryPage"
+            android:exported="false" />
+        <activity
+            android:name=".mainPage2.LTPPage"
+            android:exported="false" />
+        <activity
+            android:name=".mainPage2.TempPage"
+            android:exported="false" />
+        <activity
+            android:name=".mainPage2.BatteryPage"
+            android:exported="false" />
+        <activity
+            android:name=".mainPage2.LTPPage"
+            android:exported="false" />
+        <activity
             android:name=".mainPage1.ABSPage"
             android:exported="false" />
         <activity
