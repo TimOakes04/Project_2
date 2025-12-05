@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Lab01</string>
+    <string name="welcome_admin_username">Welcome Admin Username!</string>
+    <string name="add_new_info">Add new info</string>
+    <string name="add_a_new_light">Add a new light</string>
+    <string name="please_sign_in">Please Sign In:</string>
+    <string name="username2">Username</string>
+    <string name="password3">Password:</string>
 </resources>
