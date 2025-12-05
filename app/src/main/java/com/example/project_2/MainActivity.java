@@ -2,6 +2,7 @@ package com.example.project_2;
 
 import static android.os.Build.VERSION_CODES_FULL.R;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -32,6 +33,10 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+    }
+
+    public static Intent mainActivityIntentFactory(Context context){
+        return new Intent(context, MainActivity.class);
     }
 
     /**
