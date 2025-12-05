@@ -76,12 +76,28 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34ff05df-cf11-4dee-abc8-d3f8e99e817f" name="Changes" comment="Finished up everything on the backend. After push just need to fix the names on the xml files.">
-      <change beforePath="$PROJECT_DIR$/.gradle/9.0-milestone-1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.0-milestone-1/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/9.0-milestone-1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.0-milestone-1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="34ff05df-cf11-4dee-abc8-d3f8e99e817f" name="Changes" comment="Realized I've been working on my main account. Can finally push all of my work.">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/AdminLoggedInPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/FailedSignInPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/SignUpPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/example/lab01/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/example/project_2/ExampleInstrumentedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lab01/AuthRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/AuthRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lab01/Database/AppDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/Database/AppDatabase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lab01/Database/WarningLightDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/Database/WarningLightDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lab01/Database/WarningLightDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/Database/WarningLightDatabase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lab01/Database/dao/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/Database/dao/UserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lab01/Database/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/Database/entities/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lab01/Database/entities/WarningLight.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/Database/entities/WarningLight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lab01/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lab01/auth/AuthPrefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/auth/AuthPrefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lab01/ui/ManageUsersActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/ui/ManageUsersActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lab01/ui/WarningLightAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/ui/WarningLightAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lab01/ui/WarningLightListActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/ui/WarningLightListActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/example/lab01/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/example/project_2/ExampleUnitTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -293,7 +309,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764966042731</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Realized I've been working on my main account. Can finally push all of my work.">
+      <option name="closed" value="true" />
+      <created>1764966809453</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1764966809453</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -324,7 +348,8 @@
     <MESSAGE value="Yea" />
     <MESSAGE value="Worked for a while, but I need to push so I can work on my laptop since I'll be out today." />
     <MESSAGE value="Finished up everything on the backend. After push just need to fix the names on the xml files." />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished up everything on the backend. After push just need to fix the names on the xml files." />
+    <MESSAGE value="Realized I've been working on my main account. Can finally push all of my work." />
+    <option name="LAST_COMMIT_MESSAGE" value="Realized I've been working on my main account. Can finally push all of my work." />
   </component>
   <component name="play_dynamic_filters_status">
     <option name="appIdToCheckInfo">

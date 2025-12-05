@@ -1,10 +1,10 @@
-package com.example.lab01;
+package com.example.project_2;
 
 import android.content.Context;
 
-import com.example.lab01.Database.AppDatabase;
-import com.example.lab01.Database.dao.UserDAO;
-import com.example.lab01.Database.entities.User;
+import com.example.project_2.Database.AppDatabase;
+import com.example.project_2.Database.dao.UserDAO;
+import com.example.project_2.Database.entities.User;
 
 public class AuthRepository {
 

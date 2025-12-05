@@ -14,6 +14,18 @@
         <activity android:name=".ui.WarningLightListActivity" />
         <activity android:name=".ui.ManageUsersActivity" />
         <activity
+            android:name=".AdminLoggedInPage"
+            android:exported="false" />
+        <activity
+            android:name=".FailedSignInPage"
+            android:exported="false" />
+        <activity
+            android:name=".SignUpPage"
+            android:exported="false" />
+        <activity
+            android:name=".LoginPage"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

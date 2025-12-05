@@ -1,4 +1,4 @@
-package com.example.lab01.Database;
+package com.example.project_2.Database;
 
 import android.content.Context;
 
@@ -8,8 +8,8 @@ import androidx.room.Room;
 import androidx.room.RoomDatabase;
 import androidx.sqlite.db.SupportSQLiteDatabase;
 
-import com.example.lab01.Database.dao.UserDAO;
-import com.example.lab01.Database.entities.User;
+import com.example.project_2.Database.dao.UserDAO;
+import com.example.project_2.Database.entities.User;
 
 import java.util.concurrent.Executors;
 

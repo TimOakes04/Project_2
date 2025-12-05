@@ -1,11 +1,11 @@
-package com.example.lab01.Database.dao;
+package com.example.project_2.Database.dao;
 
 import androidx.room.Dao;
 import androidx.room.Insert;
 import androidx.room.OnConflictStrategy;
 import androidx.room.Query;
 
-import com.example.lab01.Database.entities.User;
+import com.example.project_2.Database.entities.User;
 @Dao
 public interface UserDAO {
 

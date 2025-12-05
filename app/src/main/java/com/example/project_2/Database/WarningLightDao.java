@@ -1,4 +1,4 @@
-package com.example.lab01.Database;
+package com.example.project_2.Database;
 import androidx.room.Dao;
 import androidx.room.Delete;
 import androidx.room.Insert;
@@ -6,7 +6,7 @@ import androidx.room.OnConflictStrategy;
 import androidx.room.Query;
 import androidx.room.Update;
 
-import com.example.lab01.Database.entities.WarningLight;
+import com.example.project_2.Database.entities.WarningLight;
 
 import java.util.List;
 

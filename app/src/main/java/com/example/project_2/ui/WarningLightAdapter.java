@@ -1,4 +1,4 @@
-package com.example.lab01.ui;
+package com.example.project_2.ui;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -8,10 +8,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.lab01.Database.entities.WarningLight;
-import com.example.lab01.R;
-
-import org.w3c.dom.Text;
+import com.example.project_2.Database.entities.WarningLight;
+import com.example.project_2.R;
 
 import java.util.ArrayList;
 import java.util.List;
