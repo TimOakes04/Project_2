@@ -33,31 +33,14 @@
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="0dp" />
 
-    // Remove users button
-    <Button
-        android:id="@+id/removeUserButton"
-        android:layout_width="290dp"
-        android:layout_height="130dp"
-        android:layout_marginBottom="28dp"
-        android:backgroundTint="#0874E2"
-        android:text="@string/remove_users1"
-        android:textColor="@color/black"
-        android:textSize="38sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/addNewUserButton"
-        tools:ignore="InvalidId,UnknownId" />
-
-    // Add new users button
+    // Add/ remove users button
     <Button
         android:id="@+id/addNewUserButon"
         android:layout_width="290dp"
         android:layout_height="130dp"
         android:layout_marginTop="228dp"
         android:backgroundTint="#0874E2"
-        android:text="@string/add_new_users"
+        android:text="@string/edit_users_button"
         android:textColor="@color/black"
         android:textSize="38sp"
         app:layout_constraintEnd_toEndOf="parent"

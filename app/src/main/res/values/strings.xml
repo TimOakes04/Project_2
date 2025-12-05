@@ -76,4 +76,6 @@
     <string name="backMainPage2">Back</string>
     <string name="back1">Back</string>
     <string name="main_activity_button_admin">Main activity</string>
+    <string name="see_users_button">See users</string>
+    <string name="edit_users_button">Edit users</string>
 </resources>
