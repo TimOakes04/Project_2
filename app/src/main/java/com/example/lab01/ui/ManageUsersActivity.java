@@ -1,0 +1,84 @@
+package com.example.lab01.ui;
+
+import static android.app.ProgressDialog.show;
+
+import android.os.Bundle;
+import android.widget.Button;
+import android.widget.CheckBox;
+import android.widget.EditText;
+import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.lab01.Database.AppDatabase;
+import com.example.lab01.Database.dao.UserDAO;
+import com.example.lab01.Database.entities.User;
+import com.example.lab01.auth.AuthPrefs;
+
+import java.util.concurrent.Executor;
+import java.util.concurrent.Executors;
+
+public class ManageUsersActivity extends AppCompatActivity {
+    private EditText usernameInput;
+    private EditText passwordInput;
+    private CheckBox adminCheckBox;
+    private UserDAO userDAO;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+
+        if (!AuthPrefs.isAdmin(this)) {
+            Toast.makeText(this, "Not authorized", Toast.LENGTH_SHORT).show();
+            finish();
+            return;
+        }
+
+        setContentView(android.R.layout.activity_manage_users);
+
+        usernameInput = findViewById(R.id.input_username);
+        passwordInput = findViewById(R.id.input_password);
+        adminCheckBox = findViewById(R.id.checkbox_is_admin);
+
+        Button addButton = findViewById(R.id.button_add_user);
+        Button deleteButton = findViewById(R.id.button_delete_user);
+
+        userDAO = AppDatabase.getInstance(getApplicationContext()).userDAO();
+
+        addButton.setOnClickListener(v -> addUser());
+        deleteButton.setOnClickListener(v -> deleteUser());
+    }
+
+    private void addUser() {
+        String username = usernameInput.getText().toString().trim();
+        String password = passwordInput.getText().toString().trim();
+        boolean isAdmin = adminCheckBox.isChecked();
+
+        if (username.isEmpty() || password.isEmpty()) {
+            Toast.makeText(this, "Username and password required", Toast.LENGTH_SHORT).show();
+            return;
+        }
+
+        Executors.newSingleThreadExecutor().execute(() -> {
+            userDAO.insert(new User(username, password, isAdmin));
+            runOnUiThread(() ->
+                    Toast.makeText(this, "User added", Toast.LENGTH_SHORT).show()
+            );
+        });
+        }
+        private void deleteUser() {
+        String username = usernameInput.getText().toString().trim();
+
+        if (username.isEmpty()) {
+            Toast.makeText(this, "Username required", Toast.LENGTH_SHORT).show();
+            return;
+        }
+
+            Executors.newSingleThreadExecutor().execute(() -> {
+                userDAO.deleteByUsername(username);
+                runOnUiThread(() ->
+                        Toast.makeText(this, "User deleted (if existed)", Toast.LENGTH_SHORT).show()
+                );
+            });
+    }
+}

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FailedSignInPage">
+
+    <!--    Trouble signing in display text-->
+    <TextView
+        android:id="@+id/failedSignInTextView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="16dp"
+        android:layout_marginTop="16dp"
+        android:elevation="10dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/please_try_again"
+        android:textColor="@color/black"
+        android:textSize="33sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!--    Re-try username display text-->
+    <TextView
+        android:id="@+id/usernameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="120dip"
+        android:layout_margin="16dp"
+        android:background="#2C86FB"
+        android:elevation="10dp"
+        android:padding="25dp"
+        android:text="@string/username2"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/failedSignInTextView"
+        app:layout_constraintVertical_bias="0.03"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <!--    Re-enter username input-->
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:layout_margin="100dp"
+        android:autofillHints="Please enter username:"
+        android:background="#f8f8ff"
+        android:elevation="10dp"
+        android:gravity="center"
+        android:inputType="text"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/failedSignInTextView"
+        app:layout_constraintVertical_bias="0"
+        tools:layout_editor_absoluteX="100dp"
+        tools:ignore="LabelFor" />
+
+    <!--    Re-enter password display text-->
+    <TextView
+        android:id="@+id/passwordTextView"
+        android:layout_width="match_parent"
+        android:layout_height="120dip"
+        android:layout_margin="16dp"
+        android:background="#2C86FB"
+        android:elevation="10dp"
+        android:padding="25dp"
+        android:text="@string/password3"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/username"
+        app:layout_constraintVertical_bias="0.06"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <!--    Re-enter password input-->
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="300dp"
+        android:layout_height="35dip"
+        android:layout_margin="100dp"
+        android:autofillHints="Please enter password:"
+        android:background="#f8f8ff"
+        android:elevation="10dp"
+        android:gravity="center"
+        android:inputType="textPassword"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/username"
+        app:layout_constraintVertical_bias="0.04"
+        tools:layout_editor_absoluteX="16dp"
+        tools:ignore="LabelFor" />
+
+    <!--    Background color-->
+    <View
+        android:id="@+id/background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#40B7E6"
+        android:elevation="0dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-0dp" />
+
+    <!--    ENTER button allows user to sign in-->
+    <Button
+        android:id="@+id/signInButton"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#0874E2"
+        android:elevation="10dp"
+        android:gravity="center"
+        android:text="@string/enter"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        android:onClick="signIn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/passwordTextView"
+        app:layout_constraintVertical_bias="0" />
+
+    <!--    Don't have account display text-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="@string/dont_have_an_account"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="@id/signUpButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/signInButton"
+        app:layout_constraintVertical_bias="0" />
+
+    <!--    SIGN UP button that sends the user to make new account screen-->
+    <Button
+        android:id="@+id/signUpButton"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#0874E2"
+        android:elevation="10dp"
+        android:gravity="center"
+        android:text="@string/sign_up1"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/passwordTextView"
+        app:layout_constraintVertical_bias="0.77" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

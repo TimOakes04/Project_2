@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
+
+<!--    // Background-->
+    <View
+        android:id="@+id/background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#0A408F"
+        android:elevation="0dp"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="172dp" />
+
+<!--    // Username display text (Change this to display the username)-->
+    <TextView
+        android:id="@+id/displayUsername"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#0A408F"
+        android:elevation="9dp"
+        android:gravity="center"
+        android:text="@string/welcome_user"
+        android:textColor="@color/black"
+        android:textSize="35sp"
+        tools:ignore="MissingConstraints" />
+
+<!--    /*-->
+<!--    Tire pressure light button that when-->
+<!--    clicked takes to tire pressure light page-->
+<!--    */-->
+    <ImageButton
+        android:id="@+id/tirePressureLightButton"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:backgroundTint="#F6D02D"
+        android:contentDescription="@string/sends_to_screen_of_info"
+        android:elevation="10dp"
+        android:padding="15dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/tpms1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/displayUsername"
+        tools:ignore="RtlSymmetry"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="213dp" />
+
+<!--    /*-->
+<!--    Battery light button that when-->
+<!--    clicked takes to battery light page-->
+<!--    */-->
+    <ImageButton
+        android:id="@+id/batteryLightButton"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="35dp"
+        android:backgroundTint="#F62D2D"
+        android:contentDescription="@string/sends_to_screen_of_info"
+        android:elevation="10dp"
+        android:padding="18dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/battery1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tirePressureLightButton"
+        tools:ignore="RtlSymmetry" />
+
+<!--    /*-->
+<!--    Temperature light button that when-->
+<!--    clicked takes to temp light page-->
+<!--    */-->
+    <ImageButton
+        android:id="@+id/tempLightButton"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="35dp"
+        android:backgroundTint="#F62D2D"
+        android:contentDescription="@string/sends_to_screen_of_info"
+        android:elevation="10dp"
+        android:padding="20dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/temp1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/batteryLightButton"
+        tools:ignore="RtlSymmetry" />
+
+<!--    // Button that allows user to go to the next page of lights-->
+    <Button
+        android:id="@+id/page2"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/white"
+        android:text="@string/continue1"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tempLightButton" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:ignore="ExtraText">
+
+<!--    // Display admin logged in display text-->
+    <TextView
+        android:id="@+id/welcomeMessage"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:elevation="10dp"
+        android:gravity="center"
+        android:text="@string/welcome_admin_username1"
+        android:textColor="@color/black"
+        android:textSize="49sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+<!--    // Background color-->
+    <View
+        android:id="@+id/background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#0A408F"
+        android:elevation="0dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+<!--    // Add new info button allows admin to add/ change info to current light-->
+    <Button
+        android:id="@+id/addInfoButton"
+        android:layout_width="260dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="28dp"
+        android:backgroundTint="#0874E2"
+        android:text="@string/add_change_info"
+        android:textColor="@color/black"
+        android:textSize="38sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/welcomeMessage"
+        tools:ignore="InvalidId" />
+
+<!--    // Add a new light button which allows admin to create a new light button/ entry-->
+    <Button
+        android:id="@+id/addNewLight"
+        android:layout_width="260dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="28dp"
+        android:backgroundTint="#0874E2"
+        android:text="@string/add_new_light"
+        android:textColor="@color/black"
+        android:textSize="38sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addInfoButton" />
+
+<!--    // Button that allows Admin to add users-->
+    <Button
+        android:id="@+id/addUsersButton"
+        android:layout_width="260dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="28dp"
+        android:backgroundTint="#0874E2"
+        android:text="@string/add_user"
+        android:textColor="@color/black"
+        android:textSize="38sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addNewLight" />
+
+<!--    // Button that allows Admin to remove users-->
+    <Button
+        android:id="@+id/removeUser"
+        android:layout_width="260dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="28dp"
+        android:backgroundTint="#0874E2"
+        android:text="@string/remove_user"
+        android:textColor="@color/black"
+        android:textSize="38sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addUsersButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

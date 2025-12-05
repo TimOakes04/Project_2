@@ -11,6 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Lab01">
+        <activity android:name=".ui.WarningLightListActivity" />
+        <activity android:name=".ui.ManageUsersActivity" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
