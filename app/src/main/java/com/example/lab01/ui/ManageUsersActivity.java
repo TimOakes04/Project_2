@@ -13,6 +13,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.lab01.Database.AppDatabase;
 import com.example.lab01.Database.dao.UserDAO;
 import com.example.lab01.Database.entities.User;
+import com.example.lab01.R;
 import com.example.lab01.auth.AuthPrefs;
 
 import java.util.concurrent.Executor;
@@ -34,11 +35,11 @@ public class ManageUsersActivity extends AppCompatActivity {
             return;
         }
 
-        setContentView(android.R.layout.activity_manage_users);
+        setContentView(R.layout.activity_sign_up_page);
 
-        usernameInput = findViewById(R.id.input_username);
-        passwordInput = findViewById(R.id.input_password);
-        adminCheckBox = findViewById(R.id.checkbox_is_admin);
+        usernameInput = findViewById(R.id.newUsername);
+        passwordInput = findViewById(R.id.newPassword);
+        adminCheckBox = findViewById(R.id.is_admin);
 
         Button addButton = findViewById(R.id.button_add_user);
         Button deleteButton = findViewById(R.id.button_delete_user);
