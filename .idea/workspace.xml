@@ -85,11 +85,6 @@
           <theme>@style/Theme.Project_2</theme>
         </config>
       </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/info_input_page.xml">
-        <config>
-          <theme>@android:style/Theme.Material.Light</theme>
-        </config>
-      </layout>
       <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/oil_pressure_page.xml">
         <config>
           <theme>@style/Theme.Project_2</theme>
@@ -121,9 +116,8 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e8270f2-d15a-41f0-9afb-9764d9983097" name="Changes" comment="New admin screen that displays recycler view">
+    <list default="true" id="9e8270f2-d15a-41f0-9afb-9764d9983097" name="Changes" comment="New admin screen that displays recycler view and has add and remove user id">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -652,7 +646,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764970340280</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="New admin screen that displays recycler view and has add and remove user id">
+      <option name="closed" value="true" />
+      <created>1764979214873</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1764979214873</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -679,7 +681,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fixed failed sign in page" />
     <MESSAGE value="Fixed sign up page" />
     <MESSAGE value="Fixed info input page" />
     <MESSAGE value="Made tpms page" />
@@ -704,7 +705,8 @@
     <MESSAGE value="Changing admin page" />
     <MESSAGE value="Merge remote-tracking branch 'origin/Login' into UI&#10;&#10;# Conflicts:&#10;#&#9;.gradle/8.13/fileHashes/fileHashes.lock&#10;#&#9;.idea/workspace.xml" />
     <MESSAGE value="New admin screen that displays recycler view" />
-    <option name="LAST_COMMIT_MESSAGE" value="New admin screen that displays recycler view" />
+    <MESSAGE value="New admin screen that displays recycler view and has add and remove user id" />
+    <option name="LAST_COMMIT_MESSAGE" value="New admin screen that displays recycler view and has add and remove user id" />
   </component>
   <component name="play_dynamic_filters_status">
     <option name="appIdToCheckInfo">
