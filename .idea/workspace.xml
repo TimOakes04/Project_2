@@ -147,34 +147,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34ff05df-cf11-4dee-abc8-d3f8e99e817f" name="Changes" comment="Named back to project 2 on the files, it's the same repo Idk why they can't see my work">
-      <change beforePath="$PROJECT_DIR$/.gradle/9.0-milestone-1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.0-milestone-1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/example/project_2/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/example/lab01/ExampleInstrumentedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/example/Project_2/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/example/project_2/ExampleInstrumentedTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/AdminLoggedInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lab01/AdminLoggedInPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/AuthRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lab01/AuthRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/Database/AppDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lab01/Database/AppDatabase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/Database/WarningLightDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lab01/Database/WarningLightDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/Database/WarningLightDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lab01/Database/WarningLightDatabase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/Database/dao/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lab01/Database/dao/UserDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/Database/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lab01/Database/entities/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/Database/entities/WarningLight.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lab01/Database/entities/WarningLight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/FailedSignInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lab01/FailedSignInPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lab01/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lab01/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/SignUpPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lab01/SignUpPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/auth/AuthPrefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lab01/auth/AuthPrefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/ui/MainPage1Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lab01/ui/MainPage1Activity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/ui/MainPage2Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lab01/ui/MainPage2Activity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/ui/MainPage3Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lab01/ui/MainPage3Activity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/ui/ManageUsersActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lab01/ui/ManageUsersActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/ui/UserAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lab01/ui/UserAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/ui/WarningLightAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lab01/ui/WarningLightAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/ui/WarningLightListActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/lab01/ui/WarningLightListActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/example/project_2/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/example/lab01/ExampleUnitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/Project_2/AdminLoggedInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/AdminLoggedInPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/Project_2/AuthRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/AuthRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/Project_2/Database/AppDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/Database/AppDatabase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/Project_2/Database/WarningLightDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/Database/WarningLightDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/Project_2/Database/WarningLightDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/Database/WarningLightDatabase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/Project_2/Database/dao/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/Database/dao/UserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/Project_2/Database/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/Database/entities/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/Project_2/Database/entities/WarningLight.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/Database/entities/WarningLight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/Project_2/FailedSignInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/FailedSignInPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/Project_2/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/Project_2/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/Project_2/SignUpPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/SignUpPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/Project_2/auth/AuthPrefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/auth/AuthPrefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/Project_2/ui/MainPage1Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/ui/MainPage1Activity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/Project_2/ui/MainPage2Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/ui/MainPage2Activity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/Project_2/ui/MainPage3Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/ui/MainPage3Activity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/Project_2/ui/ManageUsersActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/ui/ManageUsersActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/Project_2/ui/UserAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/ui/UserAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/Project_2/ui/WarningLightAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/ui/WarningLightAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/Project_2/ui/WarningLightListActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/ui/WarningLightListActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/example/Project_2/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/example/project_2/ExampleUnitTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -439,7 +435,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765053299350</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Named back to project 2 on the files, it's the same repo Idk why they can't see my work">
+      <option name="closed" value="true" />
+      <created>1765056053478</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1765056053478</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

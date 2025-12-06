@@ -1,4 +1,4 @@
-package com.example.Project_2;
+package com.example.project_2;
 
 
 import android.content.Intent;
@@ -9,9 +9,9 @@ import android.widget.EditText;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.Project_2.Database.entities.User;
-import com.example.Project_2.auth.AuthPrefs;
-import com.example.Project_2.ui.MainPage1Activity;
+import com.example.project_2.Database.entities.User;
+import com.example.project_2.auth.AuthPrefs;
+import com.example.project_2.ui.MainPage1Activity;
 
 import java.util.concurrent.Executors;
 

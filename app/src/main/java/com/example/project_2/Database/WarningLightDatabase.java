@@ -1,11 +1,11 @@
-package com.example.Project_2.Database;
+package com.example.project_2.Database;
 import android.content.Context;
 
 import androidx.room.Database;
 import androidx.room.Room;
 import androidx.room.RoomDatabase;
 
-import com.example.Project_2.Database.entities.WarningLight;
+import com.example.project_2.Database.entities.WarningLight;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

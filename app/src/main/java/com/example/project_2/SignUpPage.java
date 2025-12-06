@@ -1,4 +1,4 @@
-package com.example.Project_2;
+package com.example.project_2;
 
 
 import android.content.Context;
@@ -11,7 +11,7 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.Project_2.R;
+import com.example.project_2.R;
 
 import java.util.concurrent.Executors;
 

@@ -1,4 +1,4 @@
-package com.example.Project_2;
+package com.example.project_2;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -10,10 +10,10 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-import com.example.Project_2.R;
-import com.example.Project_2.auth.AuthPrefs;
-import com.example.Project_2.ui.ManageUsersActivity;
-import com.example.Project_2.ui.WarningLightListActivity;
+import com.example.project_2.R;
+import com.example.project_2.auth.AuthPrefs;
+import com.example.project_2.ui.ManageUsersActivity;
+import com.example.project_2.ui.WarningLightListActivity;
 
 public class AdminLoggedInPage extends AppCompatActivity {
 
