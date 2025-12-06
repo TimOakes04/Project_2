@@ -1,45 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_users"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
 
     <LinearLayout
-        android:id="@+id/manage_users_root"
+        android:id="@+id/manage_users_form"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="16dp" />
+        android:padding="16dp" >
+
     <EditText
         android:id="@+id/input_username"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
         android:hint="Username" />
 
     <EditText
-        android:id="@+id/input_password"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Password"
-        android:inputType="textPassword" />
+            android:id="@+id/input_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:layout_marginBottom="8dp"/>
 
-    <CheckBox
-        android:id="@+id/is_admin"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Is admin?" />
+        <CheckBox
+            android:id="@+id/is_admin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Is admin?"
+            android:layout_marginBottom="16dp"/>
 
-    <Button
-        android:id="@+id/button_add_user"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Add user" />
+        <Button
+            android:id="@+id/button_add_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add user"
+            android:layout_marginBottom="8dp"/>
 
-    <Button
-        android:id="@+id/button_delete_user"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Delete user" />
+        <Button
+            android:id="@+id/button_delete_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete user" />
 
 
+    </LinearLayout>
+</LinearLayout>
 
-</androidx.constraintlayout.widget.ConstraintLayout>

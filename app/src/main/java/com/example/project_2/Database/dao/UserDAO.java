@@ -6,6 +6,9 @@ import androidx.room.OnConflictStrategy;
 import androidx.room.Query;
 
 import com.example.project_2.Database.entities.User;
+
+import java.util.List;
+
 @Dao
 public interface UserDAO {
 
@@ -17,13 +20,16 @@ public interface UserDAO {
 
 
     @Insert(onConflict = OnConflictStrategy.ABORT)
-    long insert(User user);
+    void insert(User user);
 
     @Query("SELECT COUNT(*) FROM users")
     int count();
 
     @Query("DELETE FROM users WHERE username = :username")
     void deleteByUsername(String username);
+
+    @Query("SELECT * FROM users")
+    List<User> getAll();
 
 
 }
