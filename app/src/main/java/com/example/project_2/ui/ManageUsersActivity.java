@@ -1,6 +1,5 @@
 package com.example.project_2.ui;
 
-import static android.app.ProgressDialog.show;
 
 import android.os.Bundle;
 import android.widget.Button;
@@ -34,10 +33,10 @@ public class ManageUsersActivity extends AppCompatActivity {
             return;
         }
 
-        setContentView(R.layout.activity_sign_up_page);
+        setContentView(R.layout.activity_manage_users);
 
-        usernameInput = findViewById(R.id.newUsername);
-        passwordInput = findViewById(R.id.newPassword);
+        usernameInput = findViewById(R.id.input_username);
+        passwordInput = findViewById(R.id.input_password);
         adminCheckBox = findViewById(R.id.is_admin);
 
         Button addButton = findViewById(R.id.button_add_user);

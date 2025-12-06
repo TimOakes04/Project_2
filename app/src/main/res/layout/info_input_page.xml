@@ -16,7 +16,7 @@
         android:background="#0A408F"
         android:elevation="10dp"
         android:gravity="center"
-        android:text="@string/enter_the_following_info_about_your_vehicle1"
+        android:text="@string/enter_the_following_info_about_your_vehicle"
         android:textColor="@color/black"
         android:textSize="35sp"
         tools:ignore="MissingConstraints" />
@@ -31,7 +31,7 @@
         android:elevation="10dp"
         android:gravity="center"
         android:paddingBottom="37dp"
-        android:text="@string/vin_number1"
+        android:text="@string/vin_number"
         android:textColor="@color/white"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"

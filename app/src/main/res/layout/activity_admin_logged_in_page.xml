@@ -14,7 +14,7 @@
         android:layout_height="150dp"
         android:elevation="10dp"
         android:gravity="center"
-        android:text="@string/welcome_admin_username"
+        android:text="Welcome Admin"
         android:textColor="@color/black"
         android:textSize="49sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -34,12 +34,12 @@
 
     <!--    Add new info button allows admin to add/ change info to current light-->
     <Button
-        android:id="@+id/addInfoButton"
+        android:id="@+id/button_manage_users"
         android:layout_width="290dp"
         android:layout_height="130dp"
         android:layout_marginTop="48dp"
         android:backgroundTint="#0874E2"
-        android:text="@string/add_new_info"
+        android:text="Manage Users"
         android:textColor="@color/black"
         android:textSize="38sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -50,17 +50,31 @@
 
     <!--    Add a new light button which allows admin to create a new light button/ entry-->
     <Button
-        android:id="@+id/addNewLight"
+        android:id="@+id/button_view_warning_lights"
         android:layout_width="290dp"
         android:layout_height="130dp"
-        android:layout_marginTop="96dp"
+        android:layout_marginTop="46dp"
         android:backgroundTint="#0874E2"
-        android:text="@string/add_a_new_light"
+        android:text="View Warning Lights"
         android:textColor="@color/black"
         android:textSize="38sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/addInfoButton" />
+        app:layout_constraintTop_toBottomOf="@+id/button_manage_users" />
+
+    <Button
+        android:id="@+id/button_logout"
+        android:layout_width="290dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="46dp"
+        android:backgroundTint="#0874E2"
+        android:text="Log Out"
+        android:textColor="@color/black"
+        android:textSize="38sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_view_warning_lights" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

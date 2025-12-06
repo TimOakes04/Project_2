@@ -45,8 +45,8 @@ public class WarningLightAdapter extends RecyclerView.Adapter<WarningLightAdapte
     }
 
     static class WarningLightViewHolder extends RecyclerView.ViewHolder {
-        TextView nameView;
-        TextView descriptionView;
+        private final TextView nameView;
+        private final TextView descriptionView;
 
         public WarningLightViewHolder(@NonNull View itemView) {
             super(itemView);
