@@ -13,7 +13,7 @@ public class MainPage3Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_page1);
+        setContentView(R.layout.activity_main_page3);
 
         Button continueButton = findViewById(R.id.page2);
         continueButton.setOnClickListener(v -> {

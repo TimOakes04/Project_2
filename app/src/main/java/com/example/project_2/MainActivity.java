@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
                 if (user.isAdmin()) {
                     startActivity(new Intent(this, AdminLoggedInPage.class));
                 } else {
-                    startActivity(new Intent(this, MainPage1Activity.class));
+                    startActivity(new Intent(this, MainPage1Activity .class));
                 }
 
                 finish();
