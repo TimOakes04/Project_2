@@ -11,7 +11,10 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.project_2.Database.entities.User;
 import com.example.project_2.auth.AuthPrefs;
+import com.example.project_2.ui.MainPage1Activity;
 import com.example.project_2.ui.WarningLightListActivity;
+
+import java.util.concurrent.Executors;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -29,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         Button signUpButton = findViewById(R.id.signUpButton);
 
         signUpButton.setOnClickListener(v -> {
-            Intent intent = SignUpPage.signUpPageIntentFactory(getApplicationContext());
+            Intent intent = SignUpPage.signUpPageIntentFactory(MainActivity.this);
             startActivity(intent);
         });
     }
@@ -37,23 +40,26 @@ public class MainActivity extends AppCompatActivity {
         String username = usernameInput.getText().toString().trim();
         String password = passwordInput.getText().toString().trim();
 
-        User user = AuthRepository.authenticate(getApplicationContext(), username, password);
+        Executors.newSingleThreadExecutor().execute(() -> {
+            User user = AuthRepository.authenticate(getApplicationContext(), username, password);
 
-        if (user == null) {
-            Intent intent = FailedSignInPage.failedSignInPageIntentFactory(getApplicationContext());
-            startActivity(intent);
-            return;
-        }
+            runOnUiThread(() -> {
+                if (user == null) {
+                    Intent intent = FailedSignInPage.failedSignInPageIntentFactory(MainActivity.this);
+                    startActivity(intent);
+                    return;
+                }
 
-        AuthPrefs.login(this, user.getUsername(), user.isAdmin());
+                AuthPrefs.login(this, user.getUsername(), user.isAdmin());
 
-        if (user.isAdmin()) {
-            startActivity(new Intent(this, AdminLoggedInPage.class));
-        } else {
-            startActivity(new Intent(this, WarningLightListActivity.class));
-        }
+                if (user.isAdmin()) {
+                    startActivity(new Intent(this, AdminLoggedInPage.class));
+                } else {
+                    startActivity(new Intent(this, MainPage1Activity.class));
+                }
 
-        finish();
-
+                finish();
+            });
+        });
     }
 }
