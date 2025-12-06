@@ -1,9 +1,9 @@
-package com.example.project_2.ui;
+package com.example.Project_2.ui;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
-import com.example.project_2.R;
+import com.example.Project_2.R;
 
 import androidx.appcompat.app.AppCompatActivity;
 

@@ -1,22 +1,21 @@
-package com.example.project_2.ui;
+package com.example.Project_2.ui;
 
 
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
-import android.widget.LinearLayout;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.project_2.Database.AppDatabase;
-import com.example.project_2.Database.dao.UserDAO;
-import com.example.project_2.Database.entities.User;
-import com.example.project_2.R;
-import com.example.project_2.auth.AuthPrefs;
+import com.example.Project_2.Database.AppDatabase;
+import com.example.Project_2.Database.dao.UserDAO;
+import com.example.Project_2.Database.entities.User;
+import com.example.Project_2.R;
+import com.example.Project_2.auth.AuthPrefs;
 
 import java.util.List;
 import java.util.concurrent.Executors;

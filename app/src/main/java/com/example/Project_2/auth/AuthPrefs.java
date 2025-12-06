@@ -1,4 +1,4 @@
-package com.example.project_2.auth;
+package com.example.Project_2.auth;
 
 import android.content.Context;
 import android.content.SharedPreferences;

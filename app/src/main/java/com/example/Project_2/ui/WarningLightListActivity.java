@@ -1,4 +1,4 @@
-package com.example.project_2.ui;
+package com.example.Project_2.ui;
 
 import android.os.Bundle;
 
@@ -6,10 +6,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.project_2.Database.WarningLightDao;
-import com.example.project_2.Database.WarningLightDatabase;
-import com.example.project_2.Database.entities.WarningLight;
-import com.example.project_2.R;
+import com.example.Project_2.Database.WarningLightDao;
+import com.example.Project_2.Database.WarningLightDatabase;
+import com.example.Project_2.Database.entities.WarningLight;
+import com.example.Project_2.R;
 
 import java.util.List;
 
