@@ -38,6 +38,7 @@ public class ManageUsersActivity extends AppCompatActivity {
             return;
         }
 
+
         setContentView(R.layout.activity_manage_users);
 
         usernameInput = findViewById(R.id.input_username);
