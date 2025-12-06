@@ -15,10 +15,11 @@ public class MainPage3Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_page1);
 
-        Button continueButton = findViewById(R.id.button_continue);
+        Button continueButton = findViewById(R.id.page2);
         continueButton.setOnClickListener(v -> {
-            Intent intent = new Intent(MainPage3Activity.this, MainPage4Activity.class);
+            Intent intent = new Intent(MainPage3Activity.this, MainPage1Activity.class);
             startActivity(intent);
+            finish();
         });
     }
 }

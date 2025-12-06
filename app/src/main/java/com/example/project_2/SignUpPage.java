@@ -11,6 +11,8 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.project_2.R;
+
 import java.util.concurrent.Executors;
 
 
@@ -43,7 +45,7 @@ public class SignUpPage extends AppCompatActivity {
         String confirm = reNewPasswordInput.getText().toString().trim();
 
         if (username.isEmpty() || password.isEmpty() || confirm.isEmpty()) {
-            Toast.makeText(this, "All fields are required", Toast.LENGTH_SHORT);
+            Toast.makeText(this, "All fields are required", Toast.LENGTH_SHORT).show();
             return;
         }
 

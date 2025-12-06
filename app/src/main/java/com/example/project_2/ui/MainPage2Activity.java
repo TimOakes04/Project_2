@@ -14,7 +14,7 @@ public class MainPage2Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_page1);
 
-        Button continueButton = findViewById(R.id.button_continue);
+        Button continueButton = findViewById(R.id.page2);
         continueButton.setOnClickListener(v -> {
             Intent intent = new Intent(MainPage2Activity.this, MainPage3Activity.class);
             startActivity(intent);

@@ -11,22 +11,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Lab01">
-        <activity android:name=".ui.WarningLightListActivity" />
-        <activity android:name=".ui.ManageUsersActivity" />
+        <activity android:name="com.example.project_2.ui.WarningLightListActivity" />
+        <activity android:name="com.example.project_2.ui.ManageUsersActivity" />
+        <activity android:name="com.example.project_2.ui.MainPage1Activity" />
+        <activity android:name="com.example.project_2.ui.MainPage2Activity" />
+        <activity android:name="com.example.project_2.ui.MainPage3Activity" />
         <activity
-            android:name=".AdminLoggedInPage"
+            android:name="com.example.project_2.AdminLoggedInPage"
             android:exported="false" />
         <activity
-            android:name=".FailedSignInPage"
+            android:name="com.example.project_2.FailedSignInPage"
             android:exported="false" />
         <activity
-            android:name=".SignUpPage"
+            android:name="com.example.project_2.SignUpPage"
             android:exported="false" />
         <activity
-            android:name=".LoginPage"
+            android:name="com.example.project_2.LoginPage"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.project_2.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
