@@ -5,22 +5,12 @@
       <config />
     </shared>
     <layouts>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/abs_page.xml">
-        <config>
-          <theme>@style/Theme.Project_2</theme>
-        </config>
-      </layout>
       <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_admin_logged_in_page.xml">
         <config>
           <theme>@style/Theme.Project_2</theme>
         </config>
       </layout>
       <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_admin_see_users.xml">
-        <config>
-          <theme>@style/Theme.Project_2</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_failed_sign_in_page.xml">
         <config>
           <theme>@style/Theme.Project_2</theme>
         </config>
@@ -40,84 +30,22 @@
           <theme>@style/Theme.Project_2</theme>
         </config>
       </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main_page3.xml">
-        <config>
-          <theme>@style/Theme.Project_2</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main_page4.xml">
-        <config>
-          <theme>@style/Theme.Project_2</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_sign_up_page.xml">
-        <config>
-          <theme>@style/Theme.Project_2</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/airbag_page.xml">
-        <config>
-          <theme>@style/Theme.Project_2</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/battery_page.xml">
-        <config>
-          <theme>@style/Theme.Project_2</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/brake_system_page.xml">
-        <config>
-          <theme>@style/Theme.Project_2</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/check_engine_page.xml">
-        <config>
-          <theme>@style/Theme.Project_2</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/cruise_control_page.xml">
-        <config>
-          <theme>@style/Theme.Project_2</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/high_beam_page.xml">
-        <config>
-          <theme>@style/Theme.Project_2</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/oil_pressure_page.xml">
-        <config>
-          <theme>@style/Theme.Project_2</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/power_steering_page.xml">
-        <config>
-          <theme>@style/Theme.Project_2</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/temp_page.xml">
-        <config>
-          <theme>@style/Theme.Project_2</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/tpms_page.xml">
-        <config>
-          <theme>@style/Theme.Project_2</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/traction_page.xml">
-        <config>
-          <theme>@style/Theme.Project_2</theme>
-        </config>
-      </layout>
     </layouts>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e8270f2-d15a-41f0-9afb-9764d9983097" name="Changes" comment="Fixing stuff">
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/FailedSignInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/FailedSignInPage.java" afterDir="false" />
+    <list default="true" id="7bb043ca-11d1-42a9-bd2d-ca1ad6587458" name="Changes" comment="fixed main on UI">
+      <change beforePath="$PROJECT_DIR$/.gradle/8.13/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.13/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.13/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.13/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.13/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/problems/problems-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/problems/problems-report.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,36 +78,13 @@
       </state>
     </system>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="layoutResourceFile" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <favorite-branches>
-      <branch-storage>
-        <map>
-          <entry type="LOCAL">
-            <value>
-              <list>
-                <branch-info repo="$PROJECT_DIR$" source="UI" />
-              </list>
-            </value>
-          </entry>
-        </map>
-      </branch-storage>
-    </favorite-branches>
-    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="UI" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -193,13 +98,10 @@
     &quot;accountId&quot;: &quot;b195353b-0ed9-4fd7-925d-bd07aaf2a491&quot;
   }
 }</component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
-  </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 7
+  &quot;associatedIndex&quot;: 3
 }</component>
-  <component name="ProjectId" id="34X2gLYRZIbZglKfcYv6fscw6GT" />
+  <component name="ProjectId" id="34X4vOhxZ2NmmOA1xQBFsZASnan" />
   <component name="ProjectReloadState">
     <option name="STATE" value="1" />
   </component>
@@ -207,20 +109,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Android App.app.executor": "Debug",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "UI"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Android App.app.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;UI&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="Project_2.app" />
@@ -294,464 +194,43 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="P2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="P2" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9e8270f2-d15a-41f0-9afb-9764d9983097" name="Changes" comment="" />
-      <created>1761345705624</created>
+      <changelist id="7bb043ca-11d1-42a9-bd2d-ca1ad6587458" name="Changes" comment="" />
+      <created>1761346812588</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1761345705624</updated>
+      <updated>1761346812588</updated>
     </task>
-    <task id="LOCAL-00001" summary="testing">
-      <option name="closed" value="true" />
-      <created>1761345746507</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1761345746507</updated>
-    </task>
-    <task id="LOCAL-00002" summary="testing2">
-      <option name="closed" value="true" />
-      <created>1761346691808</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1761346691808</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Made info page input screen">
-      <option name="closed" value="true" />
-      <created>1762029957901</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1762029957901</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Made images have text in them instead of on them.">
-      <option name="closed" value="true" />
-      <created>1762889580739</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1762889580739</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Made images have text in them instead of on them.">
-      <option name="closed" value="true" />
-      <created>1762889837692</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1762889837692</updated>
-    </task>
-    <task id="LOCAL-00006" summary="add comments later">
-      <option name="closed" value="true" />
-      <created>1762976496426</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1762976496426</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Made check_engine_page.xml again...">
-      <option name="closed" value="true" />
-      <created>1763056613888</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1763056613888</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Made check_engine_page.xml again...">
-      <option name="closed" value="true" />
-      <created>1763056709947</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1763056709947</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Made all 4 main_activity pages">
-      <option name="closed" value="true" />
-      <created>1764721290242</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1764721290242</updated>
-    </task>
-    <task id="LOCAL-00010" summary="oil pressure light page done">
-      <option name="closed" value="true" />
-      <created>1764722995310</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1764722995310</updated>
-    </task>
-    <task id="LOCAL-00011" summary="oil pressure light page done touches">
-      <option name="closed" value="true" />
-      <created>1764723219916</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1764723219916</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Fixed admin page">
-      <option name="closed" value="true" />
-      <created>1764788930972</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1764788930972</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Fixed admin page again">
-      <option name="closed" value="true" />
-      <created>1764789976527</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1764789976527</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Fixed failed sign in page">
-      <option name="closed" value="true" />
-      <created>1764790613055</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1764790613055</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Fixed sign up page">
-      <option name="closed" value="true" />
-      <created>1764790904195</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1764790904195</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Fixed info input page">
-      <option name="closed" value="true" />
-      <created>1764791514258</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1764791514258</updated>
-    </task>
-    <task id="LOCAL-00017" summary="Made tpms page">
-      <option name="closed" value="true" />
-      <created>1764803829514</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1764803829514</updated>
-    </task>
-    <task id="LOCAL-00018" summary="Made battery page">
-      <option name="closed" value="true" />
-      <created>1764804015051</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1764804015051</updated>
-    </task>
-    <task id="LOCAL-00019" summary="Made temp page">
-      <option name="closed" value="true" />
-      <created>1764804137244</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1764804137244</updated>
-    </task>
-    <task id="LOCAL-00020" summary="Made traction page">
-      <option name="closed" value="true" />
-      <created>1764804447714</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1764804447714</updated>
-    </task>
-    <task id="LOCAL-00021" summary="Made airbag page">
-      <option name="closed" value="true" />
-      <created>1764804595499</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1764804595499</updated>
-    </task>
-    <task id="LOCAL-00022" summary="Made Brake system page">
-      <option name="closed" value="true" />
-      <created>1764804730150</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1764804730150</updated>
-    </task>
-    <task id="LOCAL-00023" summary="Made cruise control page">
-      <option name="closed" value="true" />
-      <created>1764804981070</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1764804981070</updated>
-    </task>
-    <task id="LOCAL-00024" summary="Made power steering page">
-      <option name="closed" value="true" />
-      <created>1764805121575</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1764805121575</updated>
-    </task>
-    <task id="LOCAL-00025" summary="Made high beam page">
-      <option name="closed" value="true" />
-      <created>1764805235153</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1764805235153</updated>
-    </task>
-    <task id="LOCAL-00026" summary="sending everything I think?">
-      <option name="closed" value="true" />
-      <created>1764809362847</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1764809362847</updated>
-    </task>
-    <task id="LOCAL-00027" summary="Back buttons for the main pages">
-      <option name="closed" value="true" />
-      <created>1764820933481</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1764820933481</updated>
-    </task>
-    <task id="LOCAL-00028" summary="Back buttons for the main pages">
-      <option name="closed" value="true" />
-      <created>1764820965979</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1764820965979</updated>
-    </task>
-    <task id="LOCAL-00029" summary="Back buttons for the main pages">
-      <option name="closed" value="true" />
-      <created>1764821095338</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1764821095338</updated>
-    </task>
-    <task id="LOCAL-00030" summary="fixing stuff">
-      <option name="closed" value="true" />
-      <created>1764870270112</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1764870270112</updated>
-    </task>
-    <task id="LOCAL-00031" summary="fixing stuff">
-      <option name="closed" value="true" />
-      <created>1764870366046</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1764870366046</updated>
-    </task>
-    <task id="LOCAL-00032" summary="added back out button on sign in page">
-      <option name="closed" value="true" />
-      <created>1764952193507</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1764952193507</updated>
-    </task>
-    <task id="LOCAL-00033" summary="added comments">
-      <option name="closed" value="true" />
-      <created>1764954569678</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1764954569678</updated>
-    </task>
-    <task id="LOCAL-00034" summary="fixed sign up back button placement">
-      <option name="closed" value="true" />
-      <created>1764964405157</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1764964405157</updated>
-    </task>
-    <task id="LOCAL-00035" summary="fixed sign up back button placement">
-      <option name="closed" value="true" />
-      <created>1764964430212</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1764964430212</updated>
-    </task>
-    <task id="LOCAL-00036" summary="Made the buttons look nicer.">
-      <option name="closed" value="true" />
-      <created>1764964821391</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1764964821391</updated>
-    </task>
-    <task id="LOCAL-00037" summary="Made the buttons look nicer. Removed continue button on page 4.">
-      <option name="closed" value="true" />
-      <created>1764965135429</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1764965135429</updated>
-    </task>
-    <task id="LOCAL-00038" summary="Removing info_input page">
-      <option name="closed" value="true" />
-      <created>1764967214834</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1764967214834</updated>
-    </task>
-    <task id="LOCAL-00039" summary="Removing info_input page">
-      <option name="closed" value="true" />
-      <created>1764968138948</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1764968138948</updated>
-    </task>
-    <task id="LOCAL-00040" summary="Removing info_input page">
-      <option name="closed" value="true" />
-      <created>1764968162589</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1764968162589</updated>
-    </task>
-    <task id="LOCAL-00041" summary="Changing admin page">
-      <option name="closed" value="true" />
-      <created>1764969373773</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1764969373773</updated>
-    </task>
-    <task id="LOCAL-00042" summary="Merge remote-tracking branch 'origin/Login' into UI&#10;&#10;# Conflicts:&#10;#&#9;.gradle/8.13/fileHashes/fileHashes.lock&#10;#&#9;.idea/workspace.xml">
-      <option name="closed" value="true" />
-      <created>1764969387771</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1764969387771</updated>
-    </task>
-    <task id="LOCAL-00043" summary="New admin screen that displays recycler view">
-      <option name="closed" value="true" />
-      <created>1764970340280</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1764970340280</updated>
-    </task>
-    <task id="LOCAL-00044" summary="New admin screen that displays recycler view and has add and remove user id">
-      <option name="closed" value="true" />
-      <created>1764979214873</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1764979214873</updated>
-    </task>
-    <task id="LOCAL-00045" summary="Changed admin see user screen">
-      <option name="closed" value="true" />
-      <created>1764980585455</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1764980585455</updated>
-    </task>
-    <task id="LOCAL-00046" summary="Changed admin see user screen missed something before">
-      <option name="closed" value="true" />
-      <created>1764980759861</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1764980759861</updated>
-    </task>
-    <task id="LOCAL-00047" summary="Made SignUpPageTest.java and LoginPageTest.java and edited LoginPage.java and SignUpPage.java">
-      <option name="closed" value="true" />
-      <created>1765050851228</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1765050851228</updated>
-    </task>
-    <task id="LOCAL-00048" summary="Fixing stuff">
-      <option name="closed" value="true" />
-      <created>1765051240574</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1765051240574</updated>
-    </task>
-    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="origin/Login" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Made temp page" />
-    <MESSAGE value="Made traction page" />
-    <MESSAGE value="Made airbag page" />
-    <MESSAGE value="Made Brake system page" />
-    <MESSAGE value="Made cruise control page" />
-    <MESSAGE value="Made power steering page" />
-    <MESSAGE value="Made high beam page" />
-    <MESSAGE value="sending everything I think?" />
-    <MESSAGE value="Back buttons for the main pages" />
-    <MESSAGE value="fixing stuff" />
-    <MESSAGE value="added back out button on sign in page" />
-    <MESSAGE value="added comments" />
-    <MESSAGE value="fixed sign up back button placement" />
-    <MESSAGE value="Made the buttons look nicer." />
-    <MESSAGE value="Made the buttons look nicer. Removed continue button on page 4." />
-    <MESSAGE value="Adding main activity page button on admin page" />
-    <MESSAGE value="Removing info_input page" />
-    <MESSAGE value="Changing admin page" />
-    <MESSAGE value="Merge remote-tracking branch 'origin/Login' into UI&#10;&#10;# Conflicts:&#10;#&#9;.gradle/8.13/fileHashes/fileHashes.lock&#10;#&#9;.idea/workspace.xml" />
-    <MESSAGE value="New admin screen that displays recycler view" />
-    <MESSAGE value="New admin screen that displays recycler view and has add and remove user id" />
-    <MESSAGE value="Changed admin see user screen" />
-    <MESSAGE value="Changed admin see user screen missed something before" />
-    <MESSAGE value="Made SignUpPageTest.java and LoginPageTest.java and edited LoginPage.java and SignUpPage.java" />
-    <MESSAGE value="Fixing stuff" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixing stuff" />
+    <MESSAGE value="fixed main on UI" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed main on UI" />
   </component>
   <component name="play_dynamic_filters_status">
     <option name="appIdToCheckInfo">
       <map>
         <entry key="com.example.project_2">
           <value>
-            <CheckInfo lastCheckTimestamp="1765049980684" />
+            <CheckInfo lastCheckTimestamp="1765055536512" />
           </value>
         </entry>
         <entry key="com.example.project_2.test">
           <value>
-            <CheckInfo lastCheckTimestamp="1765049980692" />
+            <CheckInfo lastCheckTimestamp="1765055536512" />
           </value>
         </entry>
       </map>
