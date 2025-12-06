@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
     <layouts>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_admin_see_users.xml">
         <config>
-          <theme>@android:style/Theme</theme>
+          <theme>@style/Theme.Project_2</theme>
         </config>
       </layout>
     </layouts>
@@ -14,7 +17,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7bb043ca-11d1-42a9-bd2d-ca1ad6587458" name="Changes" comment="fixed main on UI">
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.13/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +84,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Android App.app.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -187,5 +192,21 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fixed main on UI" />
     <option name="LAST_COMMIT_MESSAGE" value="fixed main on UI" />
+  </component>
+  <component name="play_dynamic_filters_status">
+    <option name="appIdToCheckInfo">
+      <map>
+        <entry key="com.example.project_2">
+          <value>
+            <CheckInfo lastCheckTimestamp="1765055536512" />
+          </value>
+        </entry>
+        <entry key="com.example.project_2.test">
+          <value>
+            <CheckInfo lastCheckTimestamp="1765055536512" />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
