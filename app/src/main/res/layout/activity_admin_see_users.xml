@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminLoggedInPage"
+    tools:ignore="ExtraText">
+
+    // Recycler view displaying users.
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:elevation="5dp"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="210dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/usersRecyclerDisplayText"
+        />
+
+    // Display admin logged in display text
+    <TextView
+        android:id="@+id/welcomeMessage"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:elevation="10dp"
+        android:gravity="center"
+        android:text="@string/welcome_admin_user"
+        android:textColor="@color/black"
+        android:textSize="49sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    // Background color
+    <View
+        android:id="@+id/background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#0A408F"
+        android:elevation="0dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    // Displays users from recycler view next to this
+    <TextView
+        android:id="@+id/usersRecyclerDisplayText"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:elevation="6dp"
+        android:text="@string/users"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/welcomeMessage" />
+
+    // Enter ID text view
+    <TextView
+        android:id="@+id/usernameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="120dip"
+        android:layout_margin="16dp"
+        android:background="#2C86FB"
+        android:elevation="10dp"
+        android:padding="25dp"
+        android:text="@string/enter_id_to_add_remove"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/welcomeMessage"
+        app:layout_constraintVertical_bias="0.635" />
+
+    // Enter ID input
+    <EditText
+        android:id="@+id/ID_input"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:layout_margin="100dp"
+        android:autofillHints="Enter ID to add/ remove"
+        android:background="#f8f8ff"
+        android:elevation="11dp"
+        android:gravity="center"
+        android:inputType="text"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/welcomeMessage"
+        app:layout_constraintVertical_bias="0.749"
+        tools:ignore="LabelFor" />
+
+    // Admin send to Main page1 button
+    <Button
+        android:id="@+id/mainPageButtonAdmin"
+        android:layout_width="240dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="432dp"
+        android:backgroundTint="#0874E2"
+        android:elevation="2dp"
+        android:text="@string/main_activity_button_admin"
+        android:textColor="@color/black"
+        android:textSize="38sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.093"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/welcomeMessage" />
+
+    // Back out button to main page 1
+    <Button
+        android:id="@+id/backButtonAdminPage"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="372dp"
+        android:text="@string/back1"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.943"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/usersRecyclerDisplayText" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
