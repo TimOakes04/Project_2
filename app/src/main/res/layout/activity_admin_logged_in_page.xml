@@ -23,16 +23,17 @@
         tools:ignore="MissingConstraints" />
 
     <!--    Background color-->
+
+    <!--    Add new info button allows admin to add/ change info to current light-->
     <View
         android:id="@+id/background"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#0A408F"
         android:elevation="0dp"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp" />
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="-305dp" />
 
-    <!--    Add new info button allows admin to add/ change info to current light-->
     <Button
         android:id="@+id/button_manage_users"
         android:layout_width="290dp"
