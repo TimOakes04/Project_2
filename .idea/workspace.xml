@@ -121,7 +121,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e8270f2-d15a-41f0-9afb-9764d9983097" name="Changes" comment="Merge remote-tracking branch 'origin/Login' into UI&#10;&#10;# Conflicts:&#10;#&#9;.gradle/8.13/fileHashes/fileHashes.lock&#10;#&#9;.idea/workspace.xml">
+    <list default="true" id="9e8270f2-d15a-41f0-9afb-9764d9983097" name="Changes" comment="New admin screen that displays recycler view">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
@@ -644,7 +644,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764969387771</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="New admin screen that displays recycler view">
+      <option name="closed" value="true" />
+      <created>1764970340280</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1764970340280</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -671,7 +679,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fixed admin page again" />
     <MESSAGE value="Fixed failed sign in page" />
     <MESSAGE value="Fixed sign up page" />
     <MESSAGE value="Fixed info input page" />
@@ -696,7 +703,8 @@
     <MESSAGE value="Removing info_input page" />
     <MESSAGE value="Changing admin page" />
     <MESSAGE value="Merge remote-tracking branch 'origin/Login' into UI&#10;&#10;# Conflicts:&#10;#&#9;.gradle/8.13/fileHashes/fileHashes.lock&#10;#&#9;.idea/workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/Login' into UI&#10;&#10;# Conflicts:&#10;#&#9;.gradle/8.13/fileHashes/fileHashes.lock&#10;#&#9;.idea/workspace.xml" />
+    <MESSAGE value="New admin screen that displays recycler view" />
+    <option name="LAST_COMMIT_MESSAGE" value="New admin screen that displays recycler view" />
   </component>
   <component name="play_dynamic_filters_status">
     <option name="appIdToCheckInfo">
