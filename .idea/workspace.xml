@@ -116,7 +116,9 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e8270f2-d15a-41f0-9afb-9764d9983097" name="Changes" comment="Made SignUpPageTest.java and LoginPageTest.java and edited LoginPage.java and SignUpPage.java" />
+    <list default="true" id="9e8270f2-d15a-41f0-9afb-9764d9983097" name="Changes" comment="Fixing stuff">
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/FailedSignInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/FailedSignInPage.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -677,7 +679,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765050851228</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="Fixing stuff">
+      <option name="closed" value="true" />
+      <created>1765051240574</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1765051240574</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -704,7 +714,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Made battery page" />
     <MESSAGE value="Made temp page" />
     <MESSAGE value="Made traction page" />
     <MESSAGE value="Made airbag page" />
@@ -729,7 +738,8 @@
     <MESSAGE value="Changed admin see user screen" />
     <MESSAGE value="Changed admin see user screen missed something before" />
     <MESSAGE value="Made SignUpPageTest.java and LoginPageTest.java and edited LoginPage.java and SignUpPage.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Made SignUpPageTest.java and LoginPageTest.java and edited LoginPage.java and SignUpPage.java" />
+    <MESSAGE value="Fixing stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixing stuff" />
   </component>
   <component name="play_dynamic_filters_status">
     <option name="appIdToCheckInfo">
