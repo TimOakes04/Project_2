@@ -83,4 +83,5 @@
     <string name="confirm">Confirm</string>
     <string name="enter_username_to_remove_user">Enter username to remove user</string>
     <string name="main_activity">Main Activity</string>
+    <string name="sign_out">Sign Out</string>
 </resources>
