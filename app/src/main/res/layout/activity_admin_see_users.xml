@@ -11,7 +11,7 @@
     // Recycler view displaying users.
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
-        android:layout_height="220dp"
+        android:layout_height="140dp"
         android:elevation="5dp"
         android:textColor="@color/black"
         tools:layout_editor_absoluteX="0dp"
@@ -61,6 +61,9 @@
         app:layout_constraintTop_toBottomOf="@id/welcomeMessage" />
 
     // Enter ID text view
+
+    // Enter ID input
+
     <TextView
         android:id="@+id/usernameTextView"
         android:layout_width="match_parent"
@@ -77,9 +80,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/welcomeMessage"
-        app:layout_constraintVertical_bias="0.635" />
+        app:layout_constraintVertical_bias="0.433" />
 
-    // Enter ID input
     <EditText
         android:id="@+id/ID_input"
         android:layout_width="300dp"
@@ -96,7 +98,6 @@
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/welcomeMessage"
-        app:layout_constraintVertical_bias="0.749"
         tools:ignore="LabelFor" />
 
     // Admin send to Main page1 button
@@ -112,6 +113,22 @@
         android:textSize="38sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.093"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/welcomeMessage" />
+
+    // Confirm ID button
+    <Button
+        android:id="@+id/enterIDRemoveButton"
+        android:layout_width="220dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="332dp"
+        android:backgroundTint="#0874E2"
+        android:elevation="2dp"
+        android:text="@string/confirm"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/welcomeMessage" />
 

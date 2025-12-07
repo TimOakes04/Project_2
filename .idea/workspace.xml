@@ -5,7 +5,27 @@
       <config />
     </shared>
     <layouts>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_admin_logged_in_page.xml">
+        <config>
+          <theme>@style/Theme.Project_2</theme>
+        </config>
+      </layout>
       <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_admin_see_users.xml">
+        <config>
+          <theme>@style/Theme.Project_2</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login_page.xml">
+        <config>
+          <theme>@style/Theme.Project_2</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main_page1.xml">
+        <config>
+          <theme>@style/Theme.Project_2</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main_page2.xml">
         <config>
           <theme>@style/Theme.Project_2</theme>
         </config>
@@ -19,6 +39,8 @@
     <list default="true" id="7bb043ca-11d1-42a9-bd2d-ca1ad6587458" name="Changes" comment="fixed main on UI">
       <change beforePath="$PROJECT_DIR$/.gradle/8.13/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_admin_see_users.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_admin_see_users.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,12 +220,12 @@
       <map>
         <entry key="com.example.project_2">
           <value>
-            <CheckInfo lastCheckTimestamp="1765055536512" />
+            <CheckInfo lastCheckTimestamp="1765144410639" />
           </value>
         </entry>
         <entry key="com.example.project_2.test">
           <value>
-            <CheckInfo lastCheckTimestamp="1765055536512" />
+            <CheckInfo lastCheckTimestamp="1765144410639" />
           </value>
         </entry>
       </map>
