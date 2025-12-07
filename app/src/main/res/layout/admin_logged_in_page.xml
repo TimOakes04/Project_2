@@ -2,19 +2,20 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
+    tools:context=".AdminLoggedInPage"
     tools:ignore="ExtraText">
 
-<!--    // Display admin logged in display text-->
+    // Display admin logged in display text
     <TextView
         android:id="@+id/welcomeMessage"
         android:layout_width="match_parent"
         android:layout_height="150dp"
         android:elevation="10dp"
         android:gravity="center"
-        android:text="@string/welcome_admin_username1"
+        android:text="@string/welcome_admin_user"
         android:textColor="@color/black"
         android:textSize="49sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -22,7 +23,7 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
 
-<!--    // Background color-->
+    // Background color
     <View
         android:id="@+id/background"
         android:layout_width="match_parent"
@@ -32,65 +33,34 @@
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="0dp" />
 
-<!--    // Add new info button allows admin to add/ change info to current light-->
+    // Add/ remove users button
     <Button
-        android:id="@+id/addInfoButton"
-        android:layout_width="260dp"
-        android:layout_height="110dp"
-        android:layout_marginTop="28dp"
+        android:id="@+id/addNewUserButon"
+        android:layout_width="290dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="228dp"
         android:backgroundTint="#0874E2"
-        android:text="@string/add_change_info"
-        android:textColor="@color/black"
-        android:textSize="38sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.504"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/welcomeMessage"
-        tools:ignore="InvalidId" />
-
-<!--    // Add a new light button which allows admin to create a new light button/ entry-->
-    <Button
-        android:id="@+id/addNewLight"
-        android:layout_width="260dp"
-        android:layout_height="110dp"
-        android:layout_marginTop="28dp"
-        android:backgroundTint="#0874E2"
-        android:text="@string/add_new_light"
+        android:text="@string/edit_users_button"
         android:textColor="@color/black"
         android:textSize="38sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/addInfoButton" />
+        app:layout_constraintTop_toBottomOf="@+id/welcomeMessage" />
 
-<!--    // Button that allows Admin to add users-->
+    // Sends user to Main page from admin page
     <Button
-        android:id="@+id/addUsersButton"
-        android:layout_width="260dp"
-        android:layout_height="110dp"
-        android:layout_marginTop="28dp"
+        android:id="@+id/mainPageButtonAdmin"
+        android:layout_width="290dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="32dp"
         android:backgroundTint="#0874E2"
-        android:text="@string/add_user"
-        android:textColor="@color/black"
-        android:textSize="38sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.504"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/addNewLight" />
-
-<!--    // Button that allows Admin to remove users-->
-    <Button
-        android:id="@+id/removeUser"
-        android:layout_width="260dp"
-        android:layout_height="110dp"
-        android:layout_marginTop="28dp"
-        android:backgroundTint="#0874E2"
-        android:text="@string/remove_user"
+        android:text="@string/main_activity_button_admin"
         android:textColor="@color/black"
         android:textSize="38sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/addUsersButton" />
+        app:layout_constraintTop_toBottomOf="@+id/welcomeMessage" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

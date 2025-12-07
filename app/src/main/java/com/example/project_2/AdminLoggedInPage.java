@@ -29,17 +29,11 @@ public class AdminLoggedInPage extends AppCompatActivity {
             return insets;
         });
 
-        Button manageUsersButton = findViewById(R.id.button_manage_users);
-        Button viewLightsButton = findViewById(R.id.button_view_warning_lights);
-        Button logoutButton = findViewById(R.id.button_logout);
+        Button manageUsersButton = findViewById(R.id.addNewUserButon);
+        Button logoutButton = findViewById(R.id.mainPageButtonAdmin);
 
         manageUsersButton.setOnClickListener(v -> {
             Intent intent = new Intent(this, ManageUsersActivity.class);
-            startActivity(intent);
-        });
-
-        viewLightsButton.setOnClickListener(v -> {
-            Intent intent = new Intent(this, WarningLightListActivity.class);
             startActivity(intent);
         });
 
