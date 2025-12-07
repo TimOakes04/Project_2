@@ -5,6 +5,11 @@
       <config />
     </shared>
     <layouts>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_admin_logged_in_page.xml">
+        <config>
+          <theme>@style/Theme.Project_2</theme>
+        </config>
+      </layout>
       <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_admin_see_users.xml">
         <config>
           <theme>@style/Theme.Project_2</theme>
@@ -51,9 +56,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7bb043ca-11d1-42a9-bd2d-ca1ad6587458" name="Changes" comment="Fixed admin edit users page">
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/MainPage1.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/project_2/MainPage1.java" afterDir="false" />
-    </list>
+    <list default="true" id="7bb043ca-11d1-42a9-bd2d-ca1ad6587458" name="Changes" comment="Changed all buttons colors" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,7 +65,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=LocalEmulator, isTemplate=false, identifier=path=C:\Users\peter\.android\avd\Medium_Phone.avd)]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=LocalEmulator, isTemplate=false, identifier=path=/Users/timoakes/.android/avd/Pixel_5_Test.avd)]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -242,14 +245,23 @@
       <option name="project" value="LOCAL" />
       <updated>1765150495481</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Changed all buttons colors">
+      <option name="closed" value="true" />
+      <created>1765151068003</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1765151068003</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fixed main on UI" />
     <MESSAGE value="It's working!!! :D" />
     <MESSAGE value="Fixed admin edit users page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed admin edit users page" />
+    <MESSAGE value="Changed all buttons colors" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed all buttons colors" />
   </component>
   <component name="play_dynamic_filters_status">
     <option name="appIdToCheckInfo">
