@@ -82,4 +82,5 @@
     <string name="enter_id_to_add_remove">Enter ID to add/ remove</string>
     <string name="confirm">Confirm</string>
     <string name="enter_username_to_remove_user">Enter username to remove user</string>
+    <string name="main_activity">Main Activity</string>
 </resources>
