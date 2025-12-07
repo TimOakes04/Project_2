@@ -19,6 +19,7 @@ import com.example.project_2.Database.dao.UserDAO;
 import com.example.project_2.Database.entities.User;
 import com.example.project_2.LoginPage;
 import com.example.project_2.MainActivity;
+import com.example.project_2.MainPage1;
 import com.example.project_2.R;
 import com.example.project_2.databinding.ActivityAdminSeeUsersBinding;
 import com.example.project_2.databinding.ActivityLoginPageBinding;
@@ -87,7 +88,7 @@ public class ManageUsersActivity extends AppCompatActivity {
     }
 
     public void back(View v){
-        startActivity(MainActivity.mainActivityIntentFactory(getApplicationContext()));
+        startActivity(MainPage1.mainPage1IntentFactory(getApplicationContext()));
     }
 
     public static Intent manageUsersIntentFactory(Context context){

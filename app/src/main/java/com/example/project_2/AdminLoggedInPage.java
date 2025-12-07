@@ -38,7 +38,7 @@ public class AdminLoggedInPage extends AppCompatActivity {
         binding.mainPageButtonAdmin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(), MainPage1.class));
+                startActivity(MainPage1.mainPage1IntentFactory(getApplicationContext()));
             }
         });
     }
