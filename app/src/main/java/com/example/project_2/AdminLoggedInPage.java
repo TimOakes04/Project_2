@@ -1,5 +1,6 @@
 package com.example.project_2;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -30,7 +31,7 @@ public class AdminLoggedInPage extends AppCompatActivity {
         binding.addNewUserButon.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(), ManageUsersActivity.class));
+                startActivity(ManageUsersActivity.manageUsersIntentFactory(getApplicationContext()));
             }
         });
 
@@ -40,5 +41,9 @@ public class AdminLoggedInPage extends AppCompatActivity {
                 startActivity(new Intent(getApplicationContext(), MainPage1.class));
             }
         });
+    }
+
+    public static Intent adminLoggedInPageIntentFactory(Context context){
+        return new Intent(context, AdminLoggedInPage.class);
     }
 }

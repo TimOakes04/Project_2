@@ -80,4 +80,5 @@
     <string name="edit_users_button">Edit users</string>
     <string name="users">Users:</string>
     <string name="enter_id_to_add_remove">Enter ID to add/ remove</string>
+    <string name="confirm">Confirm</string>
 </resources>

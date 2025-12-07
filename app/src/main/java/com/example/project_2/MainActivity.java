@@ -1,6 +1,7 @@
 package com.example.project_2;
 
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -12,6 +13,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.project_2.Database.entities.User;
 import com.example.project_2.auth.AuthPrefs;
 import com.example.project_2.ui.MainPage1Activity;
+import com.example.project_2.ui.ManageUsersActivity;
 
 import java.util.concurrent.Executors;
 
@@ -52,13 +54,17 @@ public class MainActivity extends AppCompatActivity {
                 AuthPrefs.login(this, user.getUsername(), user.isAdmin());
 
                 if (user.isAdmin()) {
-                    startActivity(new Intent(this, AdminLoggedInPage.class));
+                    startActivity(ManageUsersActivity.manageUsersIntentFactory(getApplicationContext()));
                 } else {
-                    startActivity(new Intent(this, MainPage1Activity .class));
+                    startActivity(MainPage1.mainPage1IntentFactory(getApplicationContext()));
                 }
 
                 finish();
             });
         });
+    }
+
+    public static Intent mainActivityIntentFactory(Context context){
+        return new Intent(context, MainActivity.class);
     }
 }

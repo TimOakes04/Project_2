@@ -1,31 +1,37 @@
 package com.example.project_2.ui;
 
-
+import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
-import android.widget.Button;
-import android.widget.CheckBox;
-import android.widget.EditText;
+import android.view.View;
 import android.widget.Toast;
 
+import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.graphics.Insets;
+import androidx.core.view.ViewCompat;
+import androidx.core.view.WindowInsetsCompat;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.project_2.Database.AppDatabase;
+import com.example.project_2.AdminLoggedInPage;
 import com.example.project_2.Database.dao.UserDAO;
 import com.example.project_2.Database.entities.User;
+import com.example.project_2.LoginPage;
+import com.example.project_2.MainActivity;
 import com.example.project_2.R;
-import com.example.project_2.auth.AuthPrefs;
+import com.example.project_2.databinding.ActivityAdminSeeUsersBinding;
+import com.example.project_2.databinding.ActivityLoginPageBinding;
 import com.example.project_2.databinding.ActivityManageUsersBinding;
 
+import com.example.project_2.Database.*;
+
 import java.util.List;
+import java.util.Locale;
 import java.util.concurrent.Executors;
 
 public class ManageUsersActivity extends AppCompatActivity {
-    ActivityManageUsersBinding binding;
-    private EditText usernameInput;
-    private EditText passwordInput;
-    private CheckBox adminCheckBox;
+    ActivityAdminSeeUsersBinding binding;
     private UserDAO userDAO;
     private UserAdapter adapter;
 
@@ -33,34 +39,23 @@ public class ManageUsersActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        if (!AuthPrefs.isAdmin(this)) {
-            Toast.makeText(this, "Not authorized", Toast.LENGTH_SHORT).show();
-            finish();
-            return;
-        }
-
-
-        binding = ActivityManageUsersBinding.inflate(getLayoutInflater());
+        binding = ActivityAdminSeeUsersBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-        usernameInput = binding.inputUsername;
-        passwordInput = binding.inputPassword;
-        adminCheckBox = binding.isAdmin;
-
-        Button addButton = binding.buttonAddUser;
-        Button deleteButton = binding.buttonDeleteUser;
+//        if (!AuthPrefs.isAdmin(this)) {
+//            Toast.makeText(this, "Not authorized", Toast.LENGTH_SHORT).show();
+//            finish();
+//            return;
+//        }
 
         userDAO = AppDatabase.getInstance(getApplicationContext()).userDAO();
 
-        RecyclerView recycler = binding.recyclerUsers;
+        RecyclerView recycler = binding.recyclerView;
         recycler.setLayoutManager(new LinearLayoutManager(this));
         adapter = new UserAdapter();
         recycler.setAdapter(adapter);
 
         loadUsers();
-
-        addButton.setOnClickListener(v -> addUser());
-        deleteButton.setOnClickListener(v -> deleteUser());
     }
 
     private void loadUsers() {
@@ -74,38 +69,28 @@ public class ManageUsersActivity extends AppCompatActivity {
         });
     }
 
-    private void addUser() {
-        String username = usernameInput.getText().toString().trim();
-        String password = passwordInput.getText().toString().trim();
-        boolean isAdmin = adminCheckBox.isChecked();
+    public void confirm(View v){
+        String username = binding.IDInput.getText().toString().trim();
 
-        if (username.isEmpty() || password.isEmpty()) {
-            Toast.makeText(this, "Username and password required", Toast.LENGTH_SHORT).show();
-            return;
-        }
-
-        Executors.newSingleThreadExecutor().execute(() -> {
-            userDAO.insert(new User(username, password, isAdmin));
-            runOnUiThread(() -> {
-                Toast.makeText(this, "User added", Toast.LENGTH_SHORT).show();
-                loadUsers();
-            });
-        });
-        }
-        private void deleteUser() {
-        String username = usernameInput.getText().toString().trim();
-
-        if (username.isEmpty()) {
+        if(username.isEmpty()){
             Toast.makeText(this, "Username required", Toast.LENGTH_SHORT).show();
             return;
         }
 
-            Executors.newSingleThreadExecutor().execute(() -> {
-                userDAO.deleteByUsername(username);
-                runOnUiThread(() -> {
-                        Toast.makeText(this, "User deleted (if existed)", Toast.LENGTH_SHORT).show();
-                        loadUsers();
-                });
+        Executors.newSingleThreadExecutor().execute(() -> {
+            userDAO.deleteByUsername(username);
+            runOnUiThread(() -> {
+                Toast.makeText(this, "User deleted (if existed)", Toast.LENGTH_SHORT).show();
+                loadUsers();
             });
+        });
+    }
+
+    public void back(View v){
+        startActivity(MainActivity.mainActivityIntentFactory(getApplicationContext()));
+    }
+
+    public static Intent manageUsersIntentFactory(Context context){
+        return new Intent(context, ManageUsersActivity.class);
     }
 }

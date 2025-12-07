@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Project_2">
         <activity
+            android:name=".ui.ManageUsersActivity"
+            android:exported="false" />
+        <activity
             android:name=".mainPage4.BeamPage"
             android:exported="false" />
         <activity
