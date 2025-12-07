@@ -71,19 +71,22 @@
         android:text="@string/enter_username_to_remove_user"
         android:textAlignment="center"
         android:textColor="@color/black"
-        android:textSize="23sp"
+        android:textSize="22sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/recyclerView"
         app:layout_constraintVertical_bias="0.433" />
 
     // Enter username input
+
+    // Confirm ID button
+
     <EditText
         android:id="@+id/ID_input"
         android:layout_width="300dp"
         android:layout_height="35dp"
-        android:autofillHints="Enter ID to add/ remove"
         android:layout_marginBottom="15dp"
+        android:autofillHints="Enter ID to add/ remove"
         android:background="#f8f8ff"
         android:elevation="11dp"
         android:gravity="center"
@@ -95,7 +98,6 @@
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="LabelFor" />
 
-    // Confirm ID button
     <Button
         android:id="@+id/enterIDRemoveButton"
         android:layout_width="180dp"
