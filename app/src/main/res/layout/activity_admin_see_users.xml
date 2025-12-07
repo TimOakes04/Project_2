@@ -36,9 +36,6 @@
         tools:ignore="MissingConstraints" />
 
     // Background color
-
-    // Displays users from recycler view next to this
-
     <View
         android:id="@+id/background"
         android:layout_width="match_parent"
@@ -48,6 +45,7 @@
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="0dp" />
 
+    // Recycler view displaying users
     <TextView
         android:id="@+id/usersRecyclerDisplayText"
         android:layout_width="150dp"
@@ -61,8 +59,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/welcomeMessage" />
 
-    // Enter ID input
-
+    // Username input text view
     <TextView
         android:id="@+id/usernameTextView"
         android:layout_width="match_parent"
@@ -80,6 +77,7 @@
         app:layout_constraintTop_toBottomOf="@+id/recyclerView"
         app:layout_constraintVertical_bias="0.433" />
 
+    // Enter username input
     <EditText
         android:id="@+id/ID_input"
         android:layout_width="300dp"
@@ -97,13 +95,10 @@
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="LabelFor" />
 
-    // Admin send to Main page1 button
-
     // Confirm ID button
-
     <Button
         android:id="@+id/enterIDRemoveButton"
-        android:layout_width="220dp"
+        android:layout_width="180dp"
         android:layout_height="100dp"
         android:layout_marginTop="20dp"
         android:backgroundTint="#0874E2"
@@ -116,14 +111,14 @@
         app:layout_constraintTop_toBottomOf="@+id/usernameTextView" />
 
     // Back out button to main page 1
-
     <Button
         android:id="@+id/backButtonAdminPage"
-        android:layout_width="130dp"
+        android:layout_width="180dp"
         android:layout_height="100dp"
-        android:text="@string/back1"
+        android:backgroundTint="#0874E2"
+        android:text="@string/main_activity"
         android:textColor="@color/black"
-        android:textSize="28sp"
+        android:textSize="34sp"
         android:onClick="back"
         app:layout_constraintEnd_toEndOf="@+id/usernameTextView"
         app:layout_constraintHorizontal_bias="0.839"
