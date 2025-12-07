@@ -2,6 +2,7 @@ package com.example.project_2;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 
 import androidx.activity.EdgeToEdge;
@@ -12,36 +13,32 @@ import androidx.core.view.WindowInsetsCompat;
 
 import com.example.project_2.R;
 import com.example.project_2.auth.AuthPrefs;
+import com.example.project_2.databinding.AdminLoggedInPageBinding;
 import com.example.project_2.ui.ManageUsersActivity;
 import com.example.project_2.ui.WarningLightListActivity;
 
 public class AdminLoggedInPage extends AppCompatActivity {
 
+    AdminLoggedInPageBinding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_admin_logged_in_page);
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
-            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
-            return insets;
+        binding = AdminLoggedInPageBinding.inflate(getLayoutInflater());
+        setContentView(binding.getRoot());
+
+        binding.addNewUserButon.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), ManageUsersActivity.class));
+            }
         });
 
-        Button manageUsersButton = findViewById(R.id.addNewUserButon);
-        Button logoutButton = findViewById(R.id.mainPageButtonAdmin);
-
-        manageUsersButton.setOnClickListener(v -> {
-            Intent intent = new Intent(this, ManageUsersActivity.class);
-            startActivity(intent);
-        });
-
-        logoutButton.setOnClickListener(v -> {
-            AuthPrefs.logout(this);
-            Intent intent = new Intent(this, MainActivity.class);
-            startActivity(intent);
-            finish();
+        binding.mainPageButtonAdmin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), MainPage1.class));
+            }
         });
     }
 }

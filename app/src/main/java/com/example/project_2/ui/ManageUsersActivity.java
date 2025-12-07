@@ -16,11 +16,13 @@ import com.example.project_2.Database.dao.UserDAO;
 import com.example.project_2.Database.entities.User;
 import com.example.project_2.R;
 import com.example.project_2.auth.AuthPrefs;
+import com.example.project_2.databinding.ActivityManageUsersBinding;
 
 import java.util.List;
 import java.util.concurrent.Executors;
 
 public class ManageUsersActivity extends AppCompatActivity {
+    ActivityManageUsersBinding binding;
     private EditText usernameInput;
     private EditText passwordInput;
     private CheckBox adminCheckBox;
@@ -38,18 +40,19 @@ public class ManageUsersActivity extends AppCompatActivity {
         }
 
 
-        setContentView(R.layout.activity_manage_users);
+        binding = ActivityManageUsersBinding.inflate(getLayoutInflater());
+        setContentView(binding.getRoot());
 
-        usernameInput = findViewById(R.id.input_username);
-        passwordInput = findViewById(R.id.input_password);
-        adminCheckBox = findViewById(R.id.is_admin);
+        usernameInput = binding.inputUsername;
+        passwordInput = binding.inputPassword;
+        adminCheckBox = binding.isAdmin;
 
-        Button addButton = findViewById(R.id.button_add_user);
-        Button deleteButton = findViewById(R.id.button_delete_user);
+        Button addButton = binding.buttonAddUser;
+        Button deleteButton = binding.buttonDeleteUser;
 
         userDAO = AppDatabase.getInstance(getApplicationContext()).userDAO();
 
-        RecyclerView recycler = findViewById(R.id.recycler_users);
+        RecyclerView recycler = binding.recyclerUsers;
         recycler.setLayoutManager(new LinearLayoutManager(this));
         adapter = new UserAdapter();
         recycler.setAdapter(adapter);
