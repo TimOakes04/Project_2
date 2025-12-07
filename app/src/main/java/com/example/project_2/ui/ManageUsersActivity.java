@@ -22,8 +22,6 @@ import com.example.project_2.MainActivity;
 import com.example.project_2.MainPage1;
 import com.example.project_2.R;
 import com.example.project_2.databinding.ActivityAdminSeeUsersBinding;
-import com.example.project_2.databinding.ActivityLoginPageBinding;
-import com.example.project_2.databinding.ActivityManageUsersBinding;
 
 import com.example.project_2.Database.*;
 
