@@ -9,13 +9,13 @@
     tools:ignore="ExtraText">
 
     // Recycler view displaying users.
-
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"
+        android:background="#2C86FB"
         android:layout_height="250dp"
         android:elevation="5dp"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/usersRecyclerDisplayText" />
@@ -71,7 +71,7 @@
         android:background="#2C86FB"
         android:elevation="10dp"
         android:padding="25dp"
-        android:text="Enter username to remove user"
+        android:text="@string/enter_username_to_remove_user"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="23sp"
