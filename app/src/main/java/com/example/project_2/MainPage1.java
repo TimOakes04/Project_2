@@ -29,6 +29,13 @@ public class MainPage1 extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        binding.backButtonMainPage2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(MainActivity.mainActivityIntentFactory(getApplicationContext()));
+            }
+        });
     }
 
     public void CEL(View v){
