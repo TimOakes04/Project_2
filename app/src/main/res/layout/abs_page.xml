@@ -48,7 +48,6 @@
         android:layout_marginTop="28dp"
         android:layout_marginEnd="8dp"
         android:text="@string/back"
-        android:backgroundTint="#0874E2"
         android:textColor="@color/black"
         android:textSize="23sp"
         android:backgroundTint="#0874E2"
