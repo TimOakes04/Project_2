@@ -51,6 +51,7 @@
         android:text="@string/back"
         android:textColor="@color/black"
         android:textSize="23sp"
+        android:backgroundTint="#0874E2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@id/powerSteeringLightImage"

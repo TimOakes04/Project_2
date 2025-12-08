@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:ignore="ExtraText">
 
-<!--    // Background color-->
+    // Background color
     <View
         android:id="@+id/background"
         android:layout_width="match_parent"
@@ -16,7 +16,7 @@
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="-25dp" />
 
-<!--    // ABS light image-->
+    // ABS light image
     <ImageView
         android:id="@+id/absLightImage"
         android:layout_width="300dp"
@@ -28,7 +28,7 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="ContentDescription" />
 
-<!--    // ABS light text-->
+    // ABS light text
     <ImageView
         android:id="@+id/oilPressureLightInfo"
         android:layout_width="match_parent"
@@ -40,7 +40,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/backOutButton" />
 
-<!--    // A button that allows the user to back out to the main page that they were on-->
+    // A button that allows the user to back out to the main page that they were on
     <Button
         android:id="@+id/backOutButton"
         android:layout_width="100dp"
@@ -50,6 +50,7 @@
         android:text="@string/back"
         android:textColor="@color/black"
         android:textSize="23sp"
+        android:backgroundTint="#0874E2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@id/absLightImage"
