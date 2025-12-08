@@ -12,6 +12,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.project_2.Database.entities.User;
 import com.example.project_2.auth.AuthPrefs;
+import com.example.project_2.databinding.ActivityLoginPageBinding;
 import com.example.project_2.ui.MainPage1Activity;
 import com.example.project_2.ui.ManageUsersActivity;
 
@@ -19,35 +20,32 @@ import java.util.concurrent.Executors;
 
 
 public class MainActivity extends AppCompatActivity {
-    // Make login_page binding (login page will be start page when opening app)
-    private EditText usernameInput;
-    private EditText passwordInput;
+    ActivityLoginPageBinding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login_page);
 
-        usernameInput = findViewById(R.id.username);
-        passwordInput = findViewById(R.id.password);
-        Button signUpButton = findViewById(R.id.signUpButton);
+        binding = ActivityLoginPageBinding.inflate(getLayoutInflater());
 
-        signUpButton.setOnClickListener(v -> {
-            Intent intent = SignUpPage.signUpPageIntentFactory(MainActivity.this);
-            startActivity(intent);
+        setContentView(binding.getRoot());
+        binding.signUpButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(SignUpPage.signUpPageIntentFactory(getApplicationContext()));
+            }
         });
     }
     public void signIn(View v) {
-        String username = usernameInput.getText().toString().trim();
-        String password = passwordInput.getText().toString().trim();
+        String username = binding.username.getText().toString().trim();
+        String password = binding.password.getText().toString().trim();
 
         Executors.newSingleThreadExecutor().execute(() -> {
             User user = AuthRepository.authenticate(getApplicationContext(), username, password);
 
             runOnUiThread(() -> {
                 if (user == null) {
-                    Intent intent = FailedSignInPage.failedSignInPageIntentFactory(MainActivity.this);
-                    startActivity(intent);
+                    startActivity(FailedSignInPage.failedSignInPageIntentFactory(getApplicationContext()));
                     return;
                 }
 
