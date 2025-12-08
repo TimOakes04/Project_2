@@ -46,8 +46,8 @@ public class ManageUsersActivityTest {
     @Test
     public void test_loadUsers_updatesRecyclerView() {
         when(mockUserDAO.getAll()).thenReturn(Arrays.asList(
-                new User("john", "pw"),
-                new User("alice", "pw")
+                new User("john", "pw", false),
+                new User("alice", "pw", false)
         ));
 
         rule.getScenario().onActivity(activity -> {
