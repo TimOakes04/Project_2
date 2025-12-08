@@ -41,8 +41,8 @@ public abstract class AppDatabase extends RoomDatabase{
                                   AppDatabase d = getInstance(context);
                                   UserDAO dao = d.userDAO();
                                   if (dao.count() == 0) {
-                                      dao.insert(new User("testuser1", "testuser1", false));
-                                      dao.insert(new User("admin1", "admin1", true));
+                                      dao.insert(new User("testuser1", "testuser1"));
+                                      dao.insert(new User("admin1", "admin1"));
                                   }
                                 });
                             }

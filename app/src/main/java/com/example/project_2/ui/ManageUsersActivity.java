@@ -30,7 +30,7 @@ import java.util.Locale;
 import java.util.concurrent.Executors;
 
 public class ManageUsersActivity extends AppCompatActivity {
-    ActivityAdminSeeUsersBinding binding;
+    public ActivityAdminSeeUsersBinding binding;
     private UserDAO userDAO;
     private UserAdapter adapter;
 

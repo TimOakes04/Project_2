@@ -15,7 +15,7 @@ public class User {
 
     private boolean isAdmin;
 
-    public User(@NonNull String username, @NonNull String password, boolean isAdmin) {
+    public User(@NonNull String username, @NonNull String password) {
         this.username = username;
         this.password = password;
         this.isAdmin = isAdmin;

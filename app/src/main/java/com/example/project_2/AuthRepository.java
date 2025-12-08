@@ -20,7 +20,7 @@ public class AuthRepository {
         UserDAO dao = AppDatabase.getInstance(context).userDAO();
         User existing = dao.getByUsername(username);
         if (existing != null) return false;
-        dao.insert(new User(username, password, isAdmin));
+        dao.insert(new User(username, password));
         return true;
 
     }

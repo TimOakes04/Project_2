@@ -12,6 +12,8 @@ room = "2.8.3"
 roomCommonJvmVersion = "2.8.4"
 roomRuntime = "2.8.4"
 roomCompiler = "2.8.4"
+rules = "1.5.0"
+core = "1.7.0"
 
 
 
@@ -29,6 +31,8 @@ room-runtime = { module = "androidx.room:room-runtime", version.ref = "room" }
 androidx-room-common-jvm = { group = "androidx.room", name = "room-common-jvm", version.ref = "roomCommonJvmVersion" }
 androidx-room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "roomRuntime" }
 androidx-room-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "roomCompiler" }
+androidx-rules = { group = "androidx.test", name = "rules", version.ref = "rules" }
+androidx-core = { group = "androidx.test", name = "core", version.ref = "core" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
